@@ -1,0 +1,240 @@
+2019-10-15 15:20:04,638 WARN 10676 [-/::1/-/28ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-15 15:25:03,329 WARN 12420 [-/::1/-/2ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2019-10-15 15:34:51,846 WARN 15324 [-/::1/-/2ms POST /api/login] [ { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-15 15:36:29,017 WARN 12056 [-/::1/-/3ms POST /api/login] [ { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-15 15:36:40,236 WARN 12056 [-/::1/-/2ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-15 15:51:55,177 WARN 12056 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2019-10-15 15:52:48,553 WARN 16156 [-/::1/-/31ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2019-10-15 15:53:14,260 WARN 16156 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2019-10-15 15:53:30,249 WARN 16156 [-/::1/-/9ms POST /api/login] undefined
+2019-10-15 15:53:38,301 WARN 16156 [-/::1/-/3ms POST /api/login] undefined
+2019-10-15 15:54:26,465 WARN 16156 [-/::1/-/2ms POST /api/login] undefined
+2019-10-15 15:54:51,202 ERROR 14356 [-/::1/-/50ms POST /api/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'where clause'
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 14356
+hostname: PC-201903022055
+
+2019-10-15 15:55:03,280 ERROR 14356 [-/::1/-/6ms POST /api/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'where clause'
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 14356
+hostname: PC-201903022055
+
+2019-10-15 15:57:58,201 WARN 15948 [-/::1/-/42ms POST /api/login] undefined
+2019-10-15 15:58:07,409 WARN 15948 [-/::1/-/7ms POST /api/login] undefined
+2019-10-15 15:58:18,626 WARN 15948 [-/::1/-/3ms POST /api/login] undefined
+2019-10-15 16:01:02,769 WARN 15948 [-/::1/-/5ms POST /api/login] undefined
+2019-10-15 16:01:37,902 WARN 15720 [-/::1/-/42ms POST /api/login] undefined
+2019-10-15 16:01:43,451 WARN 15720 [-/::1/-/2ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2019-10-15 16:01:49,366 WARN 15720 [-/::1/-/3ms POST /api/login] undefined
+2019-10-15 16:01:54,433 WARN 15720 [-/::1/-/2ms POST /api/login] undefined
+2019-10-15 16:02:48,790 WARN 15720 [-/::1/-/3ms POST /api/login] undefined
+2019-10-15 16:15:22,870 WARN 14260 [-/::1/-/45ms POST /api/login] undefined
+2019-10-15 16:15:47,439 WARN 14260 [-/::1/-/7ms POST /api/login] undefined
+2019-10-16 16:37:15,694 WARN 7208 [-/::1/-/7ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:37:55,222 WARN 7208 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:46:11,487 WARN 2908 [-/::1/-/33ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:47:58,089 WARN 2908 [-/::1/-/2ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:49:21,093 WARN 2908 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:50:53,212 WARN 2908 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:51:56,977 WARN 2908 [-/::1/-/0ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:52:13,540 WARN 2908 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-16 16:57:59,874 WARN 11148 [-/::1/-/55ms POST /api/login] undefined
+2019-10-16 16:58:08,957 WARN 11148 [-/::1/-/5ms POST /api/login] undefined
+2019-10-16 16:58:17,679 WARN 11148 [-/::1/-/2ms POST /api/login] undefined
+2019-10-16 16:58:22,958 WARN 11148 [-/::1/-/2ms POST /api/login] undefined
+2019-10-16 16:58:34,128 WARN 11148 [-/::1/-/2ms POST /api/login] undefined
+2019-10-16 16:59:15,225 WARN 11148 [-/::1/-/2ms POST /api/login] undefined
+2019-10-16 16:59:44,226 WARN 3744 [-/::1/-/70ms POST /api/login] undefined
+2019-10-16 17:19:28,669 WARN 3744 [-/::1/-/4ms POST /api/login] undefined
+2019-10-16 17:21:27,270 WARN 3744 [-/::1/-/5ms POST /api/login] undefined
+2019-10-16 17:22:20,252 WARN 3744 [-/::1/-/3ms POST /api/login] undefined
+2019-10-16 17:22:50,403 WARN 3744 [-/::1/-/3ms POST /api/login] undefined
+2019-10-16 17:23:01,331 WARN 3744 [-/::1/-/2ms POST /api/login] undefined
+2019-10-16 17:24:41,504 WARN 3744 [-/::1/-/3ms POST /api/login] undefined
+2019-10-16 17:31:00,187 WARN 3744 [-/::1/-/4ms POST /api/login] undefined
+2019-10-16 17:40:13,221 WARN 3744 [-/::1/-/4ms POST /api/login] undefined
+2019-10-17 08:55:45,998 WARN 10696 [-/::1/-/3ms POST /api/login] undefined
+2019-10-17 08:58:12,802 WARN 10696 [-/::1/-/3ms POST /api/login] undefined
+2019-10-17 08:58:26,180 WARN 10696 [-/::1/-/4ms POST /api/login] undefined
+2019-10-17 09:21:46,462 WARN 10696 [-/::1/-/5ms POST /api/login] undefined
+2019-10-17 09:55:27,206 WARN 10696 [-/::1/-/10ms POST /api/login] undefined
+2019-10-17 11:26:15,381 WARN 10696 [-/::1/-/13ms POST /api/login] undefined
+2019-10-17 11:26:50,096 WARN 10696 [-/::1/-/7ms POST /api/login] undefined
+2019-10-17 11:26:58,318 WARN 10696 [-/::1/-/3ms POST /api/login] undefined
+2019-10-17 17:11:57,453 ERROR 14248 [-/::1/-/37ms POST /api/user/info] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14248
+hostname: PC-201903022055
+
+2019-10-18 09:21:06,804 ERROR 8660 [-/::1/-/39ms POST /api/user/info] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:38)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8660
+hostname: PC-201903022055
+
+2019-10-18 09:22:39,519 ERROR 8368 [-/::1/-/38ms POST /api/user/info] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:39)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8368
+hostname: PC-201903022055
+
+2019-10-18 09:22:41,701 ERROR 8368 [-/::1/-/3ms POST /api/user/info] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:39)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8368
+hostname: PC-201903022055
+
+2019-10-18 09:24:28,745 ERROR 2132 [-/::1/-/45ms POST /api/user/info] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'react_template.user' doesn't exist
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` IS NULL LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'react_template.user' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 2132
+hostname: PC-201903022055
+
+2019-10-18 16:38:09,985 WARN 16676 [-/::1/-/61ms POST /api/login] undefined
+2019-10-18 16:38:19,635 WARN 16676 [-/::1/-/2ms POST /api/login] undefined
+2019-10-18 16:38:31,241 WARN 16676 [-/::1/-/3ms POST /api/login] undefined
+2019-10-19 18:12:03,675 WARN 9936 [-/::1/-/10ms POST /api/login?userName=admin&password=123456] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-23 09:36:20,584 WARN 1428 [-/::1/-/7ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-23 09:36:36,067 WARN 1428 [-/::1/-/1ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' } ]
+2019-10-23 10:41:18,484 WARN 2380 [-/::1/-/6ms POST /api/menu/add] nodejs.SyntaxError: Identifier 'createRule' has already been declared
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 2380
+hostname: PC-201903022055
+

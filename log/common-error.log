@@ -1,0 +1,234 @@
+2019-10-15 15:54:51,199 ERROR 14356 [-/::1/-/50ms POST /api/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'where clause'
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 14356
+hostname: PC-201903022055
+
+2019-10-15 15:55:03,279 ERROR 14356 [-/::1/-/6ms POST /api/login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'where clause'
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `user` WHERE `userName` = 'aaaTest' AND `password` = '123456' LIMIT 0, 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 14356
+hostname: PC-201903022055
+
+2019-10-15 17:30:22,763 ERROR 12632 [egg-redis] client error: Error: read ECONNRESET
+2019-10-15 17:30:22,781 ERROR 12632 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-15 17:30:23,843 ERROR 12632 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-15 17:30:23,846 ERROR 12632 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-15 17:30:24,951 ERROR 12632 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-15 17:30:24,952 ERROR 12632 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-15 17:30:26,104 ERROR 12632 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-15 17:30:26,105 ERROR 12632 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-15 17:30:27,307 ERROR 12632 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-15 17:30:27,308 ERROR 12632 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-15 17:30:28,561 ERROR 12632 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-15 17:30:28,562 ERROR 12632 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 12632
+hostname: PC-201903022055
+
+2019-10-17 17:11:57,442 ERROR 14248 [-/::1/-/37ms POST /api/user/info] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14248
+hostname: PC-201903022055
+
+2019-10-18 09:21:06,803 ERROR 8660 [-/::1/-/39ms POST /api/user/info] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:38)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8660
+hostname: PC-201903022055
+
+2019-10-18 09:22:39,517 ERROR 8368 [-/::1/-/38ms POST /api/user/info] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:39)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8368
+hostname: PC-201903022055
+
+2019-10-18 09:22:41,698 ERROR 8368 [-/::1/-/3ms POST /api/user/info] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.userInfo (F:\exerciseCode\js\node\egg-example\app\controller\user\index.js:8:39)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8368
+hostname: PC-201903022055
+
+2019-10-18 09:24:28,743 ERROR 2132 [-/::1/-/45ms POST /api/user/info] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'react_template.user' doesn't exist
+    at Query.Sequence._packetToError (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (F:\exerciseCode\js\node\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\exerciseCode\js\node\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:65:19)
+    at F:\exerciseCode\js\node\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` IS NULL LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'react_template.user' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `user` WHERE `id` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 2132
+hostname: PC-201903022055
+
+2019-10-25 13:41:08,614 ERROR 7668 nodejs.ClusterClientNoResponseError: client no response in 3804377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 7668
+hostname: PC-201903022055
+
