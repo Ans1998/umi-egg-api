@@ -11,6 +11,7 @@ class RoleEditorController extends Controller {
       let createRule = {
         id: 'string',
         name: 'string',
+        status: 'string',
         describe: 'string',
       };
       // 使用参数校验

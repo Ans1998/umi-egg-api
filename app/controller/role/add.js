@@ -11,6 +11,7 @@ class RoleAddController extends Controller {
       // 定义创建接口的请求参数规则
       let createRule = {
         name: 'string',
+        status: 'string',
         describe: 'string',
       };
       // 使用参数校验

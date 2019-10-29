@@ -7,7 +7,7 @@ class RoleEditorService extends Service {
     let newTimes = new Date();
     let result = await this.app.mysql.update('react_role_info', {
       ...obj,
-      updateTime: newTimes,
+      update_time: newTimes,
     });
     return result;
   }

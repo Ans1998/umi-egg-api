@@ -2604,3 +2604,21 @@ hostname: PC-201903022055
 2019-10-29 08:55:53,386 INFO 4740 [egg-mysql] instance[0] status OK, rds currentTime: Tue Oct 29 2019 08:55:53 GMT+0800 (GMT+08:00)
 2019-10-29 08:55:53,389 INFO 4740 [egg-watcher:application] watcher start success
 2019-10-29 08:55:53,410 INFO 4740 [egg:core] dump config after ready, 13ms
+2019-10-29 11:01:11,615 INFO 6428 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-29 11:01:11,655 INFO 6428 [egg-multipart] stream mode enable
+2019-10-29 11:01:11,656 INFO 6428 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-10-29 11:01:11,789 INFO 6428 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-10-29 11:01:11,902 INFO 6428 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-10-29 11:01:11,905 INFO 6428 [egg-security] use methodnoallow middleware
+2019-10-29 11:01:11,906 INFO 6428 [egg-security] use noopen middleware
+2019-10-29 11:01:11,908 INFO 6428 [egg-security] use nosniff middleware
+2019-10-29 11:01:11,908 INFO 6428 [egg-security] use xssProtection middleware
+2019-10-29 11:01:11,909 INFO 6428 [egg-security] use xframe middleware
+2019-10-29 11:01:11,910 INFO 6428 [egg-security] use dta middleware
+2019-10-29 11:01:11,910 INFO 6428 [egg-security] compose 6 middlewares into one security middleware
+2019-10-29 11:01:11,940 INFO 6428 [egg:core] dump config after load, 7ms
+2019-10-29 11:01:11,959 INFO 6428 [egg-redis] client connect success
+2019-10-29 11:01:11,964 INFO 6428 [egg-redis] instance[0] status OK, client ready
+2019-10-29 11:01:11,970 INFO 6428 [egg-mysql] instance[0] status OK, rds currentTime: Tue Oct 29 2019 11:01:11 GMT+0800 (GMT+08:00)
+2019-10-29 11:01:11,973 INFO 6428 [egg-watcher:application] watcher start success
+2019-10-29 11:01:11,982 INFO 6428 [egg:core] dump config after ready, 7ms
