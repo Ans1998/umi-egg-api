@@ -12,7 +12,7 @@ class MenuAddController extends Controller {
       let createRule = {
         name: 'string',
         url: 'string',
-        child: 'string',
+        status: 'string',
       };
       // 使用参数校验
       ctx.validate(createRule, src);

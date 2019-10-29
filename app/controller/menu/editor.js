@@ -13,6 +13,7 @@ class MenuEditorController extends Controller {
         id: 'string',
         name: 'string',
         url: 'string',
+        status: 'string',
       };
       // 使用参数校验
       ctx.validate(createRule, src);

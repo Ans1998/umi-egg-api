@@ -6,10 +6,9 @@ class MenuAddService extends Service {
   async index(obj) {
     let newTimes = new Date();
     let result = await this.app.mysql.insert('react_menu_info', {
-      name: obj.name,
-      url: obj.url,
-      child: obj.child,
-      updateTime: newTimes,
+      ...obj,
+      create_time: newTimes,
+      update_time: newTimes,
     });
     return result;
   }

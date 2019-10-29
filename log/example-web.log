@@ -238,3 +238,96 @@ hostname: PC-201903022055
 pid: 2380
 hostname: PC-201903022055
 
+2019-10-26 16:32:25,270 ERROR 4380 [-/::1/-/50ms POST /api/menu/query] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4380
+hostname: PC-201903022055
+
+2019-10-28 09:55:42,622 WARN 9736 [-/::1/-/46ms POST /api/menu/query] nodejs.RangeError: Maximum call stack size exceeded
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:22)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+
+pid: 9736
+hostname: PC-201903022055
+
+2019-10-28 09:56:32,828 WARN 9736 [-/::1/-/16ms POST /api/menu/query] nodejs.RangeError: Maximum call stack size exceeded
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:22)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+
+pid: 9736
+hostname: PC-201903022055
+
+2019-10-28 09:56:59,757 WARN 9736 [-/::1/-/9ms POST /api/menu/query] nodejs.RangeError: Maximum call stack size exceeded
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:1:1)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+
+pid: 9736
+hostname: PC-201903022055
+
+2019-10-28 10:02:35,003 WARN 9300 [-/::1/-/61ms POST /api/menu/query] nodejs.RangeError: Maximum call stack size exceeded
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:22)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:14:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:24:14)
+
+pid: 9300
+hostname: PC-201903022055
+
+2019-10-28 10:05:04,261 WARN 1456 [-/::1/-/53ms POST /api/menu/query] nodejs.RangeError: Maximum call stack size exceeded
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:15:22)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:15:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:25:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:15:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:25:14)
+    at Array.forEach (<anonymous>)
+    at MenuQueryController.test (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:15:14)
+    at userMenu.forEach (F:\exerciseCode\js\node\egg-example\app\controller\menu\query.js:25:14)
+
+pid: 1456
+hostname: PC-201903022055
+
+2019-10-28 10:16:49,589 ERROR 2384 [-/::1/-/229ms POST /api/menu/query] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2384
+hostname: PC-201903022055
+

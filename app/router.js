@@ -15,7 +15,6 @@ module.exports = app => {
   router.post('/api/menu/add', controller.menu.add.index);
   router.post('/api/menu/editor', controller.menu.editor.index);
   router.post('/api/menu/delete', controller.menu.delete.index);
-  router.post('/api/menu/child/add', controller.menu.childMenu.add.index);
   // 角色
   router.post('/api/role/query', controller.role.query.index);
   router.post('/api/role/add', controller.role.add.index);

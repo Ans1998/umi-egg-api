@@ -232,3 +232,43 @@ name: "ClusterClientNoResponseError"
 pid: 7668
 hostname: PC-201903022055
 
+2019-10-26 16:32:25,266 ERROR 4380 [-/::1/-/50ms POST /api/menu/query] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4380
+hostname: PC-201903022055
+
+2019-10-28 10:16:49,588 ERROR 2384 [-/::1/-/229ms POST /api/menu/query] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:255:15)
+    at handleResponse (F:\exerciseCode\js\node\egg-example\node_modules\koa\lib\application.js:161:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2384
+hostname: PC-201903022055
+
+2019-10-28 15:16:41,660 ERROR 856 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "F:\\exerciseCode\\js\\node\\egg-example\\app\\service\\menu\\childMenu"
+name: "EPERMError"
+pid: 856
+hostname: PC-201903022055
+
+2019-10-28 15:16:47,702 ERROR 856 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "F:\\exerciseCode\\js\\node\\egg-example\\app\\controller\\menu\\childMenu"
+name: "EPERMError"
+pid: 856
+hostname: PC-201903022055
+
