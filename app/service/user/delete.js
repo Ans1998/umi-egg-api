@@ -1,13 +1,12 @@
 'use strict';
 const Service = require('egg').Service;
 
-class MenuDeleteService extends Service {
-  // 删除菜单
+class UserDeleteService extends Service {
   async index(obj) {
-    let result = await this.app.mysql.delete('react_menu_info', {
-      id: obj.id,
+    let result = await this.app.mysql.delete('react_user_info', {
+      ...obj
     });
     return result;
   }
 }
-module.exports = MenuDeleteService;
+module.exports = UserDeleteService;

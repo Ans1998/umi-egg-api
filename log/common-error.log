@@ -272,3 +272,23 @@ name: "EPERMError"
 pid: 856
 hostname: PC-201903022055
 
+2019-10-30 09:20:27,863 ERROR 3616 nodejs.ReferenceError: ctx is not defined
+    at queryArr.forEach (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:17:19)
+    at Array.forEach (<anonymous>)
+    at RoleConfigAuthController.arrLength (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:6:14)
+    at RoleConfigAuthController.index (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:63:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3616
+hostname: PC-201903022055
+
+2019-10-30 09:20:27,866 ERROR 3616 nodejs.ReferenceError: ctx is not defined
+    at queryArr.forEach (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:17:19)
+    at Array.forEach (<anonymous>)
+    at RoleConfigAuthController.arrLength (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:6:14)
+    at RoleConfigAuthController.index (F:\exerciseCode\js\node\egg-example\app\controller\role\configAuth\index.js:63:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3616
+hostname: PC-201903022055
+

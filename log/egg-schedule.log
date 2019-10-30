@@ -751,3 +751,252 @@
 2019-10-29 11:01:11,993 INFO 11064 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62928011ms at 2019-10-30 04:30:00.004
 2019-10-29 11:01:11,993 INFO 11064 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 46728007ms at 2019-10-30 00:00:00.000
 2019-10-29 11:01:11,994 INFO 11064 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 46729007ms at 2019-10-30 00:00:01.001
+2019-10-29 11:40:59,259 INFO 4052 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 11:40:59,259 INFO 4052 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 11:40:59,260 INFO 4052 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 11:41:12,545 INFO 11672 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 11:41:12,545 INFO 11672 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 11:41:12,545 INFO 11672 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 11:50:12,602 INFO 11624 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 11:50:12,602 INFO 11624 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 11:50:12,602 INFO 11624 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 11:50:12,968 INFO 12884 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59987035ms at 2019-10-30 04:30:00.003
+2019-10-29 11:50:12,969 INFO 12884 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43787032ms at 2019-10-30 00:00:00.001
+2019-10-29 11:50:12,969 INFO 12884 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43788031ms at 2019-10-30 00:00:01.000
+2019-10-29 11:55:18,775 INFO 12432 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 11:55:18,775 INFO 12432 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 11:55:18,775 INFO 12432 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 11:55:19,134 INFO 6764 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59680870ms at 2019-10-30 04:30:00.004
+2019-10-29 11:55:19,134 INFO 6764 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43480866ms at 2019-10-30 00:00:00.000
+2019-10-29 11:55:19,135 INFO 6764 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43481866ms at 2019-10-30 00:00:01.001
+2019-10-29 11:56:42,276 INFO 12308 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 11:56:42,276 INFO 12308 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 11:56:42,276 INFO 12308 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 11:56:42,628 INFO 912 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59597376ms at 2019-10-30 04:30:00.004
+2019-10-29 11:56:42,628 INFO 912 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43397372ms at 2019-10-30 00:00:00.000
+2019-10-29 11:56:42,628 INFO 912 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43398372ms at 2019-10-30 00:00:01.000
+2019-10-29 12:00:34,164 INFO 5468 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 12:00:34,164 INFO 5468 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 12:00:34,164 INFO 5468 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 12:00:34,523 INFO 5080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59365483ms at 2019-10-30 04:30:00.006
+2019-10-29 12:00:34,523 INFO 5080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43165477ms at 2019-10-30 00:00:00.000
+2019-10-29 12:00:34,524 INFO 5080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43166477ms at 2019-10-30 00:00:01.001
+2019-10-29 12:02:04,656 INFO 10680 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 12:02:04,656 INFO 10680 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 12:02:04,656 INFO 10680 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 12:02:04,988 INFO 12484 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59275017ms at 2019-10-30 04:30:00.005
+2019-10-29 12:02:04,988 INFO 12484 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43075012ms at 2019-10-30 00:00:00.000
+2019-10-29 12:02:04,988 INFO 12484 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43076012ms at 2019-10-30 00:00:01.000
+2019-10-29 12:03:12,152 INFO 2232 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 12:03:12,152 INFO 2232 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 12:03:12,152 INFO 2232 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 12:03:12,513 INFO 11704 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59207490ms at 2019-10-30 04:30:00.003
+2019-10-29 12:03:12,514 INFO 11704 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43007486ms at 2019-10-30 00:00:00.000
+2019-10-29 12:03:12,514 INFO 11704 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43008486ms at 2019-10-30 00:00:01.000
+2019-10-29 15:45:06,479 INFO 12136 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 15:45:06,479 INFO 12136 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 15:45:06,479 INFO 12136 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 16:46:29,285 INFO 10880 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 16:46:29,285 INFO 10880 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 16:46:29,285 INFO 10880 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 16:54:49,879 INFO 11300 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 16:54:49,879 INFO 11300 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 16:54:49,879 INFO 11300 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 16:54:50,223 INFO 11100 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41709782ms at 2019-10-30 04:30:00.005
+2019-10-29 16:54:50,223 INFO 11100 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25509777ms at 2019-10-30 00:00:00.000
+2019-10-29 16:54:50,223 INFO 11100 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25510777ms at 2019-10-30 00:00:01.000
+2019-10-29 16:55:55,790 INFO 10896 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 16:55:55,790 INFO 10896 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 16:55:55,790 INFO 10896 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 16:55:56,175 INFO 10360 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41643828ms at 2019-10-30 04:30:00.003
+2019-10-29 16:55:56,176 INFO 10360 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25443824ms at 2019-10-30 00:00:00.000
+2019-10-29 16:55:56,176 INFO 10360 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25444824ms at 2019-10-30 00:00:01.000
+2019-10-29 17:01:27,777 INFO 11948 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:01:27,777 INFO 11948 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:01:27,777 INFO 11948 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:01:28,108 INFO 7792 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41311896ms at 2019-10-30 04:30:00.004
+2019-10-29 17:01:28,108 INFO 7792 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25111892ms at 2019-10-30 00:00:00.000
+2019-10-29 17:01:28,109 INFO 7792 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25112892ms at 2019-10-30 00:00:01.001
+2019-10-29 17:02:19,880 INFO 9576 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41260124ms at 2019-10-30 04:30:00.004
+2019-10-29 17:02:19,880 INFO 9576 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25060120ms at 2019-10-30 00:00:00.000
+2019-10-29 17:02:19,881 INFO 9576 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25061119ms at 2019-10-30 00:00:01.000
+2019-10-29 17:02:19,550 INFO 11460 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:02:19,550 INFO 11460 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:02:19,550 INFO 11460 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:13:40,776 INFO 10920 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:13:40,776 INFO 10920 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:13:40,776 INFO 10920 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:13:41,116 INFO 9080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 40578888ms at 2019-10-30 04:30:00.004
+2019-10-29 17:13:41,117 INFO 9080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 24378883ms at 2019-10-30 00:00:00.000
+2019-10-29 17:13:41,117 INFO 9080 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 24379883ms at 2019-10-30 00:00:01.000
+2019-10-29 17:24:14,742 INFO 2216 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:24:14,742 INFO 2216 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:24:14,742 INFO 2216 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:24:15,085 INFO 13072 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39944919ms at 2019-10-30 04:30:00.004
+2019-10-29 17:24:15,085 INFO 13072 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23744915ms at 2019-10-30 00:00:00.000
+2019-10-29 17:24:15,085 INFO 13072 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23745915ms at 2019-10-30 00:00:01.000
+2019-10-29 17:24:57,273 INFO 12128 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:24:57,273 INFO 12128 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:24:57,273 INFO 12128 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:24:57,665 INFO 12436 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39902340ms at 2019-10-30 04:30:00.005
+2019-10-29 17:24:57,665 INFO 12436 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23702335ms at 2019-10-30 00:00:00.000
+2019-10-29 17:24:57,667 INFO 12436 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23703335ms at 2019-10-30 00:00:01.002
+2019-10-29 17:26:02,269 INFO 12632 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:26:02,269 INFO 12632 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:26:02,269 INFO 12632 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:26:02,634 INFO 12844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39837369ms at 2019-10-30 04:30:00.003
+2019-10-29 17:26:02,635 INFO 12844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23637366ms at 2019-10-30 00:00:00.001
+2019-10-29 17:26:02,635 INFO 12844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23638365ms at 2019-10-30 00:00:01.000
+2019-10-29 17:32:17,445 INFO 3440 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-29 17:32:17,445 INFO 3440 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-29 17:32:17,445 INFO 3440 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-29 17:32:17,801 INFO 10684 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39462204ms at 2019-10-30 04:30:00.005
+2019-10-29 17:32:17,801 INFO 10684 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23262199ms at 2019-10-30 00:00:00.000
+2019-10-29 17:32:17,801 INFO 10684 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23263199ms at 2019-10-30 00:00:01.000
+2019-10-30 08:47:47,553 INFO 10404 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 08:47:47,553 INFO 10404 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 08:47:47,553 INFO 10404 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 08:47:48,067 INFO 8968 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70931938ms at 2019-10-31 04:30:00.004
+2019-10-30 08:47:48,067 INFO 8968 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54731933ms at 2019-10-31 00:00:00.000
+2019-10-30 08:47:48,068 INFO 8968 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54732933ms at 2019-10-31 00:00:01.001
+2019-10-30 08:54:37,634 INFO 6548 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70522370ms at 2019-10-31 04:30:00.004
+2019-10-30 08:54:37,635 INFO 6548 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54322365ms at 2019-10-31 00:00:00.000
+2019-10-30 08:54:37,635 INFO 6548 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54323365ms at 2019-10-31 00:00:01.000
+2019-10-30 08:54:37,317 INFO 10500 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 08:54:37,317 INFO 10500 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 08:54:37,317 INFO 10500 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 08:56:06,697 INFO 8316 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70433308ms at 2019-10-31 04:30:00.005
+2019-10-30 08:56:06,698 INFO 8316 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54233303ms at 2019-10-31 00:00:00.001
+2019-10-30 08:56:06,698 INFO 8316 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54234302ms at 2019-10-31 00:00:01.000
+2019-10-30 08:56:06,370 INFO 11256 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 08:56:06,371 INFO 11256 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 08:56:06,371 INFO 11256 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:03:19,311 INFO 5668 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70000692ms at 2019-10-31 04:30:00.003
+2019-10-30 09:03:19,312 INFO 5668 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53800688ms at 2019-10-31 00:00:00.000
+2019-10-30 09:03:19,312 INFO 5668 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53801688ms at 2019-10-31 00:00:01.000
+2019-10-30 09:03:18,968 INFO 9788 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:03:18,968 INFO 9788 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:03:18,968 INFO 9788 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:14:46,606 INFO 8460 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69313397ms at 2019-10-31 04:30:00.003
+2019-10-30 09:14:46,607 INFO 8460 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53113394ms at 2019-10-31 00:00:00.001
+2019-10-30 09:14:46,607 INFO 8460 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53114393ms at 2019-10-31 00:00:01.000
+2019-10-30 09:14:46,301 INFO 188 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:14:46,301 INFO 188 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:14:46,301 INFO 188 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:20:15,645 INFO 6804 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68984359ms at 2019-10-31 04:30:00.004
+2019-10-30 09:20:15,646 INFO 6804 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52784355ms at 2019-10-31 00:00:00.001
+2019-10-30 09:20:15,646 INFO 6804 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52785354ms at 2019-10-31 00:00:01.000
+2019-10-30 09:20:15,349 INFO 3616 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:20:15,349 INFO 3616 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:20:15,349 INFO 3616 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:21:40,654 INFO 5708 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68899349ms at 2019-10-31 04:30:00.003
+2019-10-30 09:21:40,655 INFO 5708 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52699346ms at 2019-10-31 00:00:00.001
+2019-10-30 09:21:40,655 INFO 5708 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52700345ms at 2019-10-31 00:00:01.000
+2019-10-30 09:21:40,363 INFO 6856 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:21:40,363 INFO 6856 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:21:40,363 INFO 6856 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:24:26,323 INFO 2928 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:24:26,323 INFO 2928 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:24:26,323 INFO 2928 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:35:49,372 INFO 11208 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68050632ms at 2019-10-31 04:30:00.004
+2019-10-30 09:35:49,372 INFO 11208 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51850628ms at 2019-10-31 00:00:00.000
+2019-10-30 09:35:49,373 INFO 11208 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51851628ms at 2019-10-31 00:00:01.001
+2019-10-30 09:35:49,073 INFO 10608 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:35:49,073 INFO 10608 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:35:49,073 INFO 10608 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:40:37,235 INFO 5924 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:40:37,235 INFO 5924 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:40:37,235 INFO 5924 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:40:58,059 INFO 8956 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67741945ms at 2019-10-31 04:30:00.004
+2019-10-30 09:40:58,060 INFO 8956 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51541941ms at 2019-10-31 00:00:00.001
+2019-10-30 09:40:58,061 INFO 8956 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51542940ms at 2019-10-31 00:00:01.001
+2019-10-30 09:40:57,735 INFO 1376 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:40:57,735 INFO 1376 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:40:57,735 INFO 1376 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 09:43:02,708 INFO 3780 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67617297ms at 2019-10-31 04:30:00.005
+2019-10-30 09:43:02,709 INFO 3780 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51417291ms at 2019-10-31 00:00:00.000
+2019-10-30 09:43:02,710 INFO 3780 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51418291ms at 2019-10-31 00:00:01.001
+2019-10-30 09:43:02,395 INFO 84 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 09:43:02,395 INFO 84 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 09:43:02,396 INFO 84 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 10:14:23,564 INFO 8140 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 65736441ms at 2019-10-31 04:30:00.005
+2019-10-30 10:14:23,565 INFO 8140 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49536436ms at 2019-10-31 00:00:00.001
+2019-10-30 10:14:23,565 INFO 8140 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49537435ms at 2019-10-31 00:00:01.000
+2019-10-30 10:14:23,244 INFO 10600 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 10:14:23,244 INFO 10600 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 10:14:23,244 INFO 10600 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 10:51:06,715 INFO 11428 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63533289ms at 2019-10-31 04:30:00.004
+2019-10-30 10:51:06,715 INFO 11428 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47333285ms at 2019-10-31 00:00:00.000
+2019-10-30 10:51:06,716 INFO 11428 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47334285ms at 2019-10-31 00:00:01.001
+2019-10-30 10:51:06,402 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 10:51:06,402 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 10:51:06,402 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 11:15:07,131 INFO 11372 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 11:15:07,131 INFO 11372 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 11:15:07,131 INFO 11372 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 11:27:56,805 INFO 10696 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 11:27:56,805 INFO 10696 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 11:27:56,805 INFO 10696 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 11:29:19,726 INFO 11088 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 11:29:19,727 INFO 11088 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 11:29:19,727 INFO 11088 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 11:29:57,697 INFO 10412 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 61202307ms at 2019-10-31 04:30:00.004
+2019-10-30 11:29:57,698 INFO 10412 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45002303ms at 2019-10-31 00:00:00.001
+2019-10-30 11:29:57,698 INFO 10412 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45003302ms at 2019-10-31 00:00:01.000
+2019-10-30 11:29:57,317 INFO 10120 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 11:29:57,318 INFO 10120 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 11:29:57,318 INFO 10120 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 14:45:52,317 INFO 7444 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 49447689ms at 2019-10-31 04:30:00.005
+2019-10-30 14:45:52,318 INFO 7444 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 33247683ms at 2019-10-31 00:00:00.001
+2019-10-30 14:45:52,318 INFO 7444 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 33248682ms at 2019-10-31 00:00:01.000
+2019-10-30 14:45:51,968 INFO 8956 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 14:45:51,968 INFO 8956 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 14:45:51,968 INFO 8956 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 14:46:27,614 INFO 192 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 14:46:27,615 INFO 192 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 14:46:27,615 INFO 192 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 14:46:27,973 INFO 664 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 49412031ms at 2019-10-31 04:30:00.004
+2019-10-30 14:46:27,974 INFO 664 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 33212026ms at 2019-10-31 00:00:00.000
+2019-10-30 14:46:27,974 INFO 664 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 33213026ms at 2019-10-31 00:00:01.000
+2019-10-30 15:21:48,763 INFO 7288 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 47291241ms at 2019-10-31 04:30:00.004
+2019-10-30 15:21:48,763 INFO 7288 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 31091237ms at 2019-10-31 00:00:00.000
+2019-10-30 15:21:48,763 INFO 7288 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 31092237ms at 2019-10-31 00:00:01.000
+2019-10-30 15:21:48,439 INFO 4148 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 15:21:48,439 INFO 4148 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 15:21:48,439 INFO 4148 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 15:42:50,342 INFO 10220 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 15:42:50,343 INFO 10220 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 15:42:50,343 INFO 10220 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 15:43:41,364 INFO 10844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 45978640ms at 2019-10-31 04:30:00.004
+2019-10-30 15:43:41,365 INFO 10844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 29778635ms at 2019-10-31 00:00:00.000
+2019-10-30 15:43:41,365 INFO 10844 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 29779635ms at 2019-10-31 00:00:01.000
+2019-10-30 15:43:41,063 INFO 11016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 15:43:41,063 INFO 11016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 15:43:41,063 INFO 11016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 15:46:26,468 INFO 3656 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 15:46:26,468 INFO 3656 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 15:46:26,468 INFO 3656 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 15:47:18,476 INFO 6532 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 15:47:18,476 INFO 6532 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 15:47:18,476 INFO 6532 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 15:47:18,902 INFO 7904 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 45761102ms at 2019-10-31 04:30:00.004
+2019-10-30 15:47:18,902 INFO 7904 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 29561098ms at 2019-10-31 00:00:00.000
+2019-10-30 15:47:18,903 INFO 7904 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 29562098ms at 2019-10-31 00:00:01.001
+2019-10-30 16:47:02,756 INFO 10416 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 16:47:02,756 INFO 10416 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 16:47:02,756 INFO 10416 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 16:47:03,079 INFO 10692 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 42176925ms at 2019-10-31 04:30:00.004
+2019-10-30 16:47:03,080 INFO 10692 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25976921ms at 2019-10-31 00:00:00.001
+2019-10-30 16:47:03,080 INFO 10692 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25977920ms at 2019-10-31 00:00:01.000
+2019-10-30 16:58:45,774 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 16:58:45,774 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 16:58:45,774 INFO 7248 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 16:58:46,133 INFO 10724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41473871ms at 2019-10-31 04:30:00.004
+2019-10-30 16:58:46,133 INFO 10724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25273867ms at 2019-10-31 00:00:00.000
+2019-10-30 16:58:46,134 INFO 10724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25274867ms at 2019-10-31 00:00:01.001
+2019-10-30 17:05:29,650 INFO 12016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-10-30 17:05:29,650 INFO 12016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-10-30 17:05:29,650 INFO 12016 [egg-schedule]: register schedule F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-10-30 17:05:29,995 INFO 2724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41070008ms at 2019-10-31 04:30:00.003
+2019-10-30 17:05:29,996 INFO 2724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 24870004ms at 2019-10-31 00:00:00.000
+2019-10-30 17:05:29,996 INFO 2724 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 24871004ms at 2019-10-31 00:00:01.000

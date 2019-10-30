@@ -1,28 +1,27 @@
 'use strict';
 const Controller = require('egg').Controller;
 
-class MenuQueryController extends Controller {
-  // 菜单信息
+class UserQueryController extends Controller {
   async index() {
     const { ctx } = this;
     try {
-      const userMenu = await ctx.service.menu.query.index();
-      if (!userMenu) {
-        throw new Error('userMenu not found');
+      let res = await ctx.service.user.query.index();
+      if (!res) {
+        throw new Error('userInfo not found');
       }
       ctx.body = {
         code: 200,
         status: 'success',
-        msg: '查询菜单成功',
-        data: userMenu,
+        msg: '查询用户成功',
+        data: res,
       };
     } catch (err) {
       switch (err.message) {
-        case 'userMenu not found':
+        case 'userInfo not found':
           ctx.body = {
             code: 403,
             status: 'fail',
-            msg: '查询菜单失败',
+            msg: '查询用户失败',
             data: {},
           };
           break;
@@ -38,4 +37,4 @@ class MenuQueryController extends Controller {
   }
 }
 
-module.exports = MenuQueryController;
+module.exports = UserQueryController;

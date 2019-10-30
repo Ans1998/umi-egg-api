@@ -1,9 +1,24 @@
 'use strict';
 const Service = require('egg').Service;
 
-class MenuQueryService extends Service {
+class UserQueryService extends Service {
   // 查询菜单
   async index() {
+    let result = await this.app.mysql.query('select \n' +
+      'userInfo.id as u_id,userInfo.name as u_name, userInfo.password as u_password,userInfo.status as u_status,\n' +
+      'userInfo.update_time as u_update_time,\n' +
+      'userRole.user_id, userRole.role_id, userRole.id as r_id,\n' +
+      'roleInfo.name as r_name, roleInfo.status as r_status\n' +
+      'from react_user_info userInfo\n' +
+      'left join \n' +
+      'react_user_role userRole \n' +
+      'on userInfo.id = userRole.user_id\n' +
+      'left join\n' +
+      'react_role_info roleInfo\n' +
+      'on userRole.role_id = roleInfo.id');
+    return result;
+  }
+  async menu() {
     const { ctx } = this;
     let userInfo = { ...ctx.state.userInfo };
     let result = null;
@@ -21,4 +36,4 @@ class MenuQueryService extends Service {
     return result;
   }
 }
-module.exports = MenuQueryService;
+module.exports = UserQueryService;

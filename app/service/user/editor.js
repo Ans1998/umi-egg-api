@@ -1,17 +1,15 @@
 'use strict';
 const Service = require('egg').Service;
 
-class MenuEditorService extends Service {
+class UserEditorService extends Service {
   // 编辑菜单
-  async index(val) {
+  async index(obj) {
     let newTimes = new Date();
-    let result = await this.app.mysql.update('react_menu_info', {
-      id: val.id,
-      name: val.name,
-      url: val.url,
-      updateTime: newTimes,
+    let result = await this.app.mysql.update('react_user_info', {
+      ...obj,
+      update_time: newTimes,
     });
     return result;
   }
 }
-module.exports = MenuEditorService;
+module.exports = UserEditorService;

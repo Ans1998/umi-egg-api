@@ -1,8 +1,7 @@
 'use strict';
 const Controller = require('egg').Controller;
 
-class MenuAddController extends Controller {
-  // 菜单添加
+class UserAddController extends Controller {
   async index() {
     const { ctx } = this;
     try {
@@ -11,23 +10,22 @@ class MenuAddController extends Controller {
       // 定义创建接口的请求参数规则
       let createRule = {
         name: 'string',
-        url: 'string',
-        child: 'string',
+        password: 'string',
       };
       // 使用参数校验
       ctx.validate(createRule, src);
-      res = await ctx.service.menu.add.index(src);
+      res = await ctx.service.user.add.index(src);
       ctx.body = {
         code: 200,
         status: 'success',
-        msg: '添加菜单成功',
+        msg: '添加用户成功',
         data: res,
       };
     } catch (e) {
       ctx.body = {
         code: 403,
         status: 'fail',
-        msg: '添加菜单失败',
+        msg: '添加用户失败',
         data: e,
         test: ctx.request.body,
       };
@@ -35,4 +33,4 @@ class MenuAddController extends Controller {
   }
 }
 
-module.exports = MenuAddController;
+module.exports = UserAddController;
