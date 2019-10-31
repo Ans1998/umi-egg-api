@@ -10,6 +10,7 @@ module.exports = app => {
   router.post('/api/logOut', controller.login.index.logOut);
   // 用户
   router.post('/api/user/info', controller.user.index.userInfo);
+  router.post('/api/user/menu/info', controller.user.index.userMenuInfo);
   router.post('/api/user/query', controller.user.query.index);
   router.post('/api/user/add', controller.user.add.index);
   router.post('/api/user/editor', controller.user.editor.index);

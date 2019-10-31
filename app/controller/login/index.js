@@ -18,7 +18,17 @@ class LoginController extends Controller {
       };
       // 使用参数校验
       ctx.validate(createRule, ctx.request.body);
-      const userInfo = await ctx.service.login.index.findUser(ctx.request.body);
+      let userInfo = await ctx.service.login.index.findUser(ctx.request.body);
+      userInfo = JSON.parse(JSON.stringify(userInfo));
+      if (userInfo.status === 0) {
+        ctx.body = {
+          code: 200,
+          status: 'fail',
+          msg: '用户状态未开启, 请联系管理员',
+          data: { userInfo },
+        };
+        return false
+      }
       const token = ctx.helper.loginToken({ userInfo }, 7200); // token生成
       await ctx.service.login.index.redisSetUserToken(userInfo.id, token);
       ctx.body = {
