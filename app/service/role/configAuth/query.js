@@ -7,7 +7,7 @@ class RoleConfigAuthQueryService extends Service {
     // const { ctx } = this;
     // let userInfo = { ...ctx.state.userInfo };
     let result = await this.app.mysql.select('react_menu_role', {
-      where: { role_id: obj.role_id },
+      where: { ...obj },
     });
     return result;
   }

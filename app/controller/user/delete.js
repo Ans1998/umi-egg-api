@@ -13,6 +13,17 @@ class UserDeleteController extends Controller {
       // 使用参数校验
       ctx.validate(createRule, src);
       let res = await ctx.service.user.delete.index(src);
+      let roleForm = {
+        user_id: src.id,
+      };
+      let userRole = await ctx.service.user.query.userRole(roleForm);
+      userRole = JSON.parse(JSON.stringify(userRole));
+      // console.log(userRole);
+      if (userRole.length > 0) {
+        userRole.forEach(async(item) => {
+          let deteleUserRole = await ctx.service.user.delete.userRole(item);
+        })
+      }
       ctx.body = {
         code: 200,
         status: 'success',

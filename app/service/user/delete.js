@@ -8,5 +8,11 @@ class UserDeleteService extends Service {
     });
     return result;
   }
+  async userRole(obj) {
+    let result = await this.app.mysql.delete('react_user_role', {
+      ...obj
+    });
+    return result;
+  }
 }
 module.exports = UserDeleteService;

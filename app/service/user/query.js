@@ -2,7 +2,6 @@
 const Service = require('egg').Service;
 
 class UserQueryService extends Service {
-  // 查询菜单
   async index() {
     let result = await this.app.mysql.query('select \n' +
       'userInfo.id as u_id,userInfo.name as u_name, userInfo.password as u_password,userInfo.status as u_status,\n' +
@@ -16,6 +15,14 @@ class UserQueryService extends Service {
       'left join\n' +
       'react_role_info roleInfo\n' +
       'on userRole.role_id = roleInfo.id');
+    return result;
+  }
+  async userRole(obj) {
+    // const { ctx } = this;
+    // let userInfo = { ...ctx.state.userInfo };
+    let result = await this.app.mysql.select('react_user_role', {
+      where: { ...obj },
+    });
     return result;
   }
   async menu() {
