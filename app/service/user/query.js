@@ -14,7 +14,7 @@ class UserQueryService extends Service {
       'on userInfo.id = userRole.user_id\n' +
       'left join\n' +
       'react_role_info roleInfo\n' +
-      'on userRole.role_id = roleInfo.id');
+      'on userRole.role_id = roleInfo.id where userInfo.id != 1 AND userInfo.name != "root"');
     return result;
   }
   async userRole(obj) {
