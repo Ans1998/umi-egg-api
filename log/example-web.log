@@ -331,3 +331,53 @@ hostname: PC-201903022055
 pid: 2384
 hostname: PC-201903022055
 
+2019-11-23 11:49:46,931 WARN 18752 [-/::1/-/1065ms POST /api/weibo/capture] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:5000, POST http://localhost:5000/weibo/capture -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:5000:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 5000
+name: "RequestError"
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1034,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 18752
+hostname: PC-201903022055
+
+2019-11-23 11:50:40,699 WARN 19068 [-/::1/-/3054ms POST /api/weibo/capture] nodejs.ResponseTimeoutError: Response timeout for 3000ms, POST http://localhost:5000/weibo/capture -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:940:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3014,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":5000,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 19068
+hostname: PC-201903022055
+
+2019-11-23 11:52:44,092 WARN 7348 [-/::1/-/33ms POST /api/weibo/capture] nodejs.SyntaxError: Identifier 'res' has already been declared
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 7348
+hostname: PC-201903022055
+

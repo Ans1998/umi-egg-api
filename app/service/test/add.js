@@ -7,7 +7,8 @@ class MenuAddService extends Service {
     let newTimes = new Date();
     let result = await this.app.mysql.insert('xxx', {
       ...obj,
-      updateTime: newTimes,
+      // update_time: newTimes,
+      create_time: newTimes,
     });
     return result;
   }

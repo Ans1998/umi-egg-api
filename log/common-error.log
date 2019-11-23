@@ -292,3 +292,53 @@ hostname: PC-201903022055
 pid: 3616
 hostname: PC-201903022055
 
+2019-11-16 14:22:55,579 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 4369567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9756
+hostname: PC-201903022055
+
+2019-11-17 09:50:02,618 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 63746819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9756
+hostname: PC-201903022055
+
+2019-11-17 14:41:46,600 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 5586200ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9756
+hostname: PC-201903022055
+
+2019-11-17 18:22:50,968 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 11424269ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 9756
+hostname: PC-201903022055
+
+2019-11-23 13:39:04,814 ERROR 18512 nodejs.ClusterClientNoResponseError: client no response in 388468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 18512
+hostname: PC-201903022055
+

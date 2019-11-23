@@ -29,4 +29,8 @@ module.exports = app => {
   router.post('/api/role/delete', controller.role.delete.index);
   router.post('/api/role/config/auth/query', controller.role.configAuth.query.index);
   router.post('/api/role/config/auth', controller.role.configAuth.index.index);
+  // 爬虫
+  router.post('/api/weibo/capture', controller.reptile.index.capture);
+  router.post('/api/weibo/query/record', controller.reptile.index.queryRecord);
+  router.post('/api/weibo/delete/record', controller.reptile.index.deleteRecord);
 };

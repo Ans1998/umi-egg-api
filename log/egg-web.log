@@ -4100,3 +4100,609 @@ hostname: PC-201903022055
 2019-10-31 15:58:11,453 INFO 2404 [egg-mysql] instance[0] status OK, rds currentTime: Thu Oct 31 2019 15:58:11 GMT+0800 (GMT+08:00)
 2019-10-31 15:58:11,456 INFO 2404 [egg-watcher:application] watcher start success
 2019-10-31 15:58:11,467 INFO 2404 [egg:core] dump config after ready, 9ms
+2019-11-07 09:05:51,395 INFO 1384 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-07 09:05:51,447 INFO 1384 [egg-multipart] stream mode enable
+2019-11-07 09:05:51,448 INFO 1384 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-07 09:05:51,701 INFO 1384 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-07 09:05:51,921 INFO 1384 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-07 09:05:51,927 INFO 1384 [egg-security] use methodnoallow middleware
+2019-11-07 09:05:51,928 INFO 1384 [egg-security] use noopen middleware
+2019-11-07 09:05:51,930 INFO 1384 [egg-security] use nosniff middleware
+2019-11-07 09:05:51,931 INFO 1384 [egg-security] use xssProtection middleware
+2019-11-07 09:05:51,933 INFO 1384 [egg-security] use xframe middleware
+2019-11-07 09:05:51,935 INFO 1384 [egg-security] use dta middleware
+2019-11-07 09:05:51,935 INFO 1384 [egg-security] compose 6 middlewares into one security middleware
+2019-11-07 09:05:51,991 INFO 1384 [egg:core] dump config after load, 8ms
+2019-11-07 09:05:52,019 INFO 1384 [egg-redis] client connect success
+2019-11-07 09:05:52,028 INFO 1384 [egg-redis] instance[0] status OK, client ready
+2019-11-07 09:05:52,037 INFO 1384 [egg-mysql] instance[0] status OK, rds currentTime: Thu Nov 07 2019 09:05:52 GMT+0800 (GMT+08:00)
+2019-11-07 09:05:52,040 INFO 1384 [egg-watcher:application] watcher start success
+2019-11-07 09:05:52,054 INFO 1384 [egg:core] dump config after ready, 10ms
+2019-11-07 17:22:26,910 INFO 14184 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-07 17:22:26,947 INFO 14184 [egg-multipart] stream mode enable
+2019-11-07 17:22:26,948 INFO 14184 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-07 17:22:27,118 INFO 14184 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-07 17:22:27,261 INFO 14184 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-07 17:22:27,265 INFO 14184 [egg-security] use methodnoallow middleware
+2019-11-07 17:22:27,266 INFO 14184 [egg-security] use noopen middleware
+2019-11-07 17:22:27,268 INFO 14184 [egg-security] use nosniff middleware
+2019-11-07 17:22:27,268 INFO 14184 [egg-security] use xssProtection middleware
+2019-11-07 17:22:27,269 INFO 14184 [egg-security] use xframe middleware
+2019-11-07 17:22:27,270 INFO 14184 [egg-security] use dta middleware
+2019-11-07 17:22:27,270 INFO 14184 [egg-security] compose 6 middlewares into one security middleware
+2019-11-07 17:22:27,317 INFO 14184 [egg:core] dump config after load, 10ms
+2019-11-07 17:22:27,338 INFO 14184 [egg-redis] client connect success
+2019-11-07 17:22:27,347 INFO 14184 [egg-redis] instance[0] status OK, client ready
+2019-11-07 17:22:27,352 INFO 14184 [egg-watcher:application] watcher start success
+2019-11-07 17:22:27,354 INFO 14184 [egg-mysql] instance[0] status OK, rds currentTime: Thu Nov 07 2019 17:22:27 GMT+0800 (GMT+08:00)
+2019-11-07 17:22:27,366 INFO 14184 [egg:core] dump config after ready, 10ms
+2019-11-08 09:03:26,990 INFO 980 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-08 09:03:27,029 INFO 980 [egg-multipart] stream mode enable
+2019-11-08 09:03:27,029 INFO 980 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-08 09:03:27,170 INFO 980 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-08 09:03:27,289 INFO 980 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-08 09:03:27,293 INFO 980 [egg-security] use methodnoallow middleware
+2019-11-08 09:03:27,293 INFO 980 [egg-security] use noopen middleware
+2019-11-08 09:03:27,295 INFO 980 [egg-security] use nosniff middleware
+2019-11-08 09:03:27,295 INFO 980 [egg-security] use xssProtection middleware
+2019-11-08 09:03:27,296 INFO 980 [egg-security] use xframe middleware
+2019-11-08 09:03:27,297 INFO 980 [egg-security] use dta middleware
+2019-11-08 09:03:27,297 INFO 980 [egg-security] compose 6 middlewares into one security middleware
+2019-11-08 09:03:27,330 INFO 980 [egg:core] dump config after load, 7ms
+2019-11-08 09:03:27,348 INFO 980 [egg-redis] client connect success
+2019-11-08 09:03:27,355 INFO 980 [egg-redis] instance[0] status OK, client ready
+2019-11-08 09:03:27,361 INFO 980 [egg-mysql] instance[0] status OK, rds currentTime: Fri Nov 08 2019 09:03:27 GMT+0800 (GMT+08:00)
+2019-11-08 09:03:27,363 INFO 980 [egg-watcher:application] watcher start success
+2019-11-08 09:03:27,373 INFO 980 [egg:core] dump config after ready, 8ms
+2019-11-16 09:17:22,580 INFO 9828 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-16 09:17:22,615 INFO 9828 [egg-multipart] stream mode enable
+2019-11-16 09:17:22,616 INFO 9828 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-16 09:17:22,788 INFO 9828 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-16 09:17:22,927 INFO 9828 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-16 09:17:22,931 INFO 9828 [egg-security] use methodnoallow middleware
+2019-11-16 09:17:22,932 INFO 9828 [egg-security] use noopen middleware
+2019-11-16 09:17:22,933 INFO 9828 [egg-security] use nosniff middleware
+2019-11-16 09:17:22,934 INFO 9828 [egg-security] use xssProtection middleware
+2019-11-16 09:17:22,934 INFO 9828 [egg-security] use xframe middleware
+2019-11-16 09:17:22,935 INFO 9828 [egg-security] use dta middleware
+2019-11-16 09:17:22,935 INFO 9828 [egg-security] compose 6 middlewares into one security middleware
+2019-11-16 09:17:22,968 INFO 9828 [egg:core] dump config after load, 7ms
+2019-11-16 09:17:22,985 INFO 9828 [egg-redis] client connect success
+2019-11-16 09:17:22,990 INFO 9828 [egg-redis] instance[0] status OK, client ready
+2019-11-16 09:17:22,999 INFO 9828 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 16 2019 09:17:22 GMT+0800 (GMT+08:00)
+2019-11-16 09:17:23,001 INFO 9828 [egg-watcher:application] watcher start success
+2019-11-16 09:17:23,011 INFO 9828 [egg:core] dump config after ready, 8ms
+2019-11-16 14:22:55,579 WARN 9828 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-17 09:50:02,603 WARN 9828 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-17 09:50:02,659 INFO 9828 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\example"
+2019-11-17 09:50:02,662 INFO 9828 [egg-logrotator] clean all log before 31 days
+2019-11-17 09:50:02,666 INFO 9828 [-/127.0.0.1/-/10ms SCHEDULE /__schedule?path=F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2019-11-17 09:50:02,683 INFO 9828 [egg-logrotator] broadcast log-reload
+2019-11-17 09:50:02,683 INFO 9828 [egg-logrotator] rotate files success by DayRotator, files ["log\\log\\common-error.log -> log\\log\\common-error.log.2019-11-16","log\\log\\example-web.log -> log\\log\\example-web.log.2019-11-16","log\\log\\egg-web.log -> log\\log\\egg-web.log.2019-11-16","log\\log\\egg-schedule.log -> log\\log\\egg-schedule.log.2019-11-16","log\\egg-agent.log -> log\\egg-agent.log.2019-11-16"]
+2019-11-17 09:50:02,686 INFO 9828 [egg-logrotator] app logger reload: got log-reload message
+2019-11-17 14:41:46,602 WARN 9828 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-17 14:41:46,627 WARN 9828 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-17 18:22:50,967 WARN 9828 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 08:43:02,540 INFO 9072 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 08:43:02,590 INFO 9072 [egg-multipart] stream mode enable
+2019-11-23 08:43:02,591 INFO 9072 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 08:43:02,794 INFO 9072 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 08:43:02,964 INFO 9072 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 08:43:02,969 INFO 9072 [egg-security] use methodnoallow middleware
+2019-11-23 08:43:02,970 INFO 9072 [egg-security] use noopen middleware
+2019-11-23 08:43:02,972 INFO 9072 [egg-security] use nosniff middleware
+2019-11-23 08:43:02,972 INFO 9072 [egg-security] use xssProtection middleware
+2019-11-23 08:43:02,973 INFO 9072 [egg-security] use xframe middleware
+2019-11-23 08:43:02,974 INFO 9072 [egg-security] use dta middleware
+2019-11-23 08:43:02,974 INFO 9072 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 08:43:03,015 INFO 9072 [egg:core] dump config after load, 8ms
+2019-11-23 08:43:03,038 INFO 9072 [egg-redis] client connect success
+2019-11-23 08:43:03,046 INFO 9072 [egg-redis] instance[0] status OK, client ready
+2019-11-23 08:43:03,059 INFO 9072 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 08:43:03 GMT+0800 (GMT+08:00)
+2019-11-23 08:43:03,061 INFO 9072 [egg-watcher:application] watcher start success
+2019-11-23 08:43:03,075 INFO 9072 [egg:core] dump config after ready, 11ms
+2019-11-23 09:59:32,887 INFO 12588 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 09:59:32,938 INFO 12588 [egg-multipart] stream mode enable
+2019-11-23 09:59:32,941 INFO 12588 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 09:59:33,136 INFO 12588 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 09:59:33,329 INFO 12588 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 09:59:33,334 INFO 12588 [egg-security] use methodnoallow middleware
+2019-11-23 09:59:33,335 INFO 12588 [egg-security] use noopen middleware
+2019-11-23 09:59:33,336 INFO 12588 [egg-security] use nosniff middleware
+2019-11-23 09:59:33,337 INFO 12588 [egg-security] use xssProtection middleware
+2019-11-23 09:59:33,337 INFO 12588 [egg-security] use xframe middleware
+2019-11-23 09:59:33,338 INFO 12588 [egg-security] use dta middleware
+2019-11-23 09:59:33,338 INFO 12588 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 09:59:33,381 INFO 12588 [egg:core] dump config after load, 9ms
+2019-11-23 09:59:33,408 INFO 12588 [egg-redis] client connect success
+2019-11-23 09:59:33,417 INFO 12588 [egg-redis] instance[0] status OK, client ready
+2019-11-23 09:59:33,429 INFO 12588 [egg-watcher:application] watcher start success
+2019-11-23 09:59:33,434 INFO 12588 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 09:59:33 GMT+0800 (GMT+08:00)
+2019-11-23 09:59:33,452 INFO 12588 [egg:core] dump config after ready, 15ms
+2019-11-23 10:11:19,403 INFO 13944 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:11:19,510 INFO 13944 [egg-multipart] stream mode enable
+2019-11-23 10:11:19,511 INFO 13944 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:11:19,892 INFO 13944 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:11:20,399 INFO 13944 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:11:20,407 INFO 13944 [egg-security] use methodnoallow middleware
+2019-11-23 10:11:20,438 INFO 13944 [egg-security] use noopen middleware
+2019-11-23 10:11:20,440 INFO 13944 [egg-security] use nosniff middleware
+2019-11-23 10:11:20,442 INFO 13944 [egg-security] use xssProtection middleware
+2019-11-23 10:11:20,445 INFO 13944 [egg-security] use xframe middleware
+2019-11-23 10:11:20,447 INFO 13944 [egg-security] use dta middleware
+2019-11-23 10:11:20,447 INFO 13944 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:11:20,631 INFO 13944 [egg:core] dump config after load, 29ms
+2019-11-23 10:11:20,941 INFO 13944 [egg-redis] client connect success
+2019-11-23 10:11:20,957 INFO 13944 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:11:20,972 INFO 13944 [egg-watcher:application] watcher start success
+2019-11-23 10:11:20,977 INFO 13944 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:11:20 GMT+0800 (GMT+08:00)
+2019-11-23 10:11:20,996 INFO 13944 [egg:core] dump config after ready, 15ms
+2019-11-23 10:12:48,598 INFO 12792 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:12:48,644 INFO 12792 [egg-multipart] stream mode enable
+2019-11-23 10:12:48,645 INFO 12792 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:12:48,796 INFO 12792 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:12:48,918 INFO 12792 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:12:48,921 INFO 12792 [egg-security] use methodnoallow middleware
+2019-11-23 10:12:48,921 INFO 12792 [egg-security] use noopen middleware
+2019-11-23 10:12:48,922 INFO 12792 [egg-security] use nosniff middleware
+2019-11-23 10:12:48,925 INFO 12792 [egg-security] use xssProtection middleware
+2019-11-23 10:12:48,926 INFO 12792 [egg-security] use xframe middleware
+2019-11-23 10:12:48,926 INFO 12792 [egg-security] use dta middleware
+2019-11-23 10:12:48,926 INFO 12792 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:12:48,968 INFO 12792 [egg:core] dump config after load, 10ms
+2019-11-23 10:12:48,988 INFO 12792 [egg-redis] client connect success
+2019-11-23 10:12:48,995 INFO 12792 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:12:49,008 INFO 12792 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:12:48 GMT+0800 (GMT+08:00)
+2019-11-23 10:12:49,019 INFO 12792 [egg-watcher:application] watcher start success
+2019-11-23 10:12:49,037 INFO 12792 [egg:core] dump config after ready, 12ms
+2019-11-23 10:18:08,654 INFO 12544 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:18:08,706 INFO 12544 [egg-multipart] stream mode enable
+2019-11-23 10:18:08,709 INFO 12544 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:18:08,896 INFO 12544 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:18:09,084 INFO 12544 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:18:09,089 INFO 12544 [egg-security] use methodnoallow middleware
+2019-11-23 10:18:09,090 INFO 12544 [egg-security] use noopen middleware
+2019-11-23 10:18:09,091 INFO 12544 [egg-security] use nosniff middleware
+2019-11-23 10:18:09,092 INFO 12544 [egg-security] use xssProtection middleware
+2019-11-23 10:18:09,094 INFO 12544 [egg-security] use xframe middleware
+2019-11-23 10:18:09,094 INFO 12544 [egg-security] use dta middleware
+2019-11-23 10:18:09,094 INFO 12544 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:18:09,139 INFO 12544 [egg:core] dump config after load, 10ms
+2019-11-23 10:18:09,159 INFO 12544 [egg-redis] client connect success
+2019-11-23 10:18:09,165 INFO 12544 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:18:09,174 INFO 12544 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:18:09 GMT+0800 (GMT+08:00)
+2019-11-23 10:18:09,178 INFO 12544 [egg-watcher:application] watcher start success
+2019-11-23 10:18:09,194 INFO 12544 [egg:core] dump config after ready, 13ms
+2019-11-23 10:18:58,215 INFO 13484 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:18:58,262 INFO 13484 [egg-multipart] stream mode enable
+2019-11-23 10:18:58,262 INFO 13484 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:18:58,402 INFO 13484 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:18:58,532 INFO 13484 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:18:58,537 INFO 13484 [egg-security] use methodnoallow middleware
+2019-11-23 10:18:58,538 INFO 13484 [egg-security] use noopen middleware
+2019-11-23 10:18:58,539 INFO 13484 [egg-security] use nosniff middleware
+2019-11-23 10:18:58,539 INFO 13484 [egg-security] use xssProtection middleware
+2019-11-23 10:18:58,540 INFO 13484 [egg-security] use xframe middleware
+2019-11-23 10:18:58,540 INFO 13484 [egg-security] use dta middleware
+2019-11-23 10:18:58,540 INFO 13484 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:18:58,584 INFO 13484 [egg:core] dump config after load, 9ms
+2019-11-23 10:18:58,604 INFO 13484 [egg-redis] client connect success
+2019-11-23 10:18:58,613 INFO 13484 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:18:58,621 INFO 13484 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:18:58 GMT+0800 (GMT+08:00)
+2019-11-23 10:18:58,623 INFO 13484 [egg-watcher:application] watcher start success
+2019-11-23 10:18:58,639 INFO 13484 [egg:core] dump config after ready, 14ms
+2019-11-23 10:21:15,338 INFO 12856 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:21:15,383 INFO 12856 [egg-multipart] stream mode enable
+2019-11-23 10:21:15,384 INFO 12856 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:21:15,545 INFO 12856 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:21:15,714 INFO 12856 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:21:15,719 INFO 12856 [egg-security] use methodnoallow middleware
+2019-11-23 10:21:15,720 INFO 12856 [egg-security] use noopen middleware
+2019-11-23 10:21:15,721 INFO 12856 [egg-security] use nosniff middleware
+2019-11-23 10:21:15,722 INFO 12856 [egg-security] use xssProtection middleware
+2019-11-23 10:21:15,723 INFO 12856 [egg-security] use xframe middleware
+2019-11-23 10:21:15,723 INFO 12856 [egg-security] use dta middleware
+2019-11-23 10:21:15,723 INFO 12856 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:21:15,768 INFO 12856 [egg:core] dump config after load, 9ms
+2019-11-23 10:21:15,790 INFO 12856 [egg-redis] client connect success
+2019-11-23 10:21:15,798 INFO 12856 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:21:15,807 INFO 12856 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:21:15 GMT+0800 (GMT+08:00)
+2019-11-23 10:21:15,809 INFO 12856 [egg-watcher:application] watcher start success
+2019-11-23 10:21:15,822 INFO 12856 [egg:core] dump config after ready, 11ms
+2019-11-23 10:23:09,786 INFO 14296 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:23:09,828 INFO 14296 [egg-multipart] stream mode enable
+2019-11-23 10:23:09,828 INFO 14296 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:23:09,995 INFO 14296 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:23:10,164 INFO 14296 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:23:10,167 INFO 14296 [egg-security] use methodnoallow middleware
+2019-11-23 10:23:10,168 INFO 14296 [egg-security] use noopen middleware
+2019-11-23 10:23:10,171 INFO 14296 [egg-security] use nosniff middleware
+2019-11-23 10:23:10,172 INFO 14296 [egg-security] use xssProtection middleware
+2019-11-23 10:23:10,172 INFO 14296 [egg-security] use xframe middleware
+2019-11-23 10:23:10,173 INFO 14296 [egg-security] use dta middleware
+2019-11-23 10:23:10,173 INFO 14296 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:23:10,215 INFO 14296 [egg:core] dump config after load, 10ms
+2019-11-23 10:23:10,243 INFO 14296 [egg-redis] client connect success
+2019-11-23 10:23:10,253 INFO 14296 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:23:10,262 INFO 14296 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:23:10 GMT+0800 (GMT+08:00)
+2019-11-23 10:23:10,265 INFO 14296 [egg-watcher:application] watcher start success
+2019-11-23 10:23:10,278 INFO 14296 [egg:core] dump config after ready, 11ms
+2019-11-23 10:46:42,911 INFO 11980 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:46:42,955 INFO 11980 [egg-multipart] stream mode enable
+2019-11-23 10:46:42,955 INFO 11980 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:46:43,131 INFO 11980 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:46:43,294 INFO 11980 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:46:43,301 INFO 11980 [egg-security] use methodnoallow middleware
+2019-11-23 10:46:43,302 INFO 11980 [egg-security] use noopen middleware
+2019-11-23 10:46:43,304 INFO 11980 [egg-security] use nosniff middleware
+2019-11-23 10:46:43,304 INFO 11980 [egg-security] use xssProtection middleware
+2019-11-23 10:46:43,305 INFO 11980 [egg-security] use xframe middleware
+2019-11-23 10:46:43,305 INFO 11980 [egg-security] use dta middleware
+2019-11-23 10:46:43,305 INFO 11980 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:46:43,350 INFO 11980 [egg:core] dump config after load, 11ms
+2019-11-23 10:46:43,392 INFO 11980 [egg-redis] client connect success
+2019-11-23 10:46:43,411 INFO 11980 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:46:43,432 INFO 11980 [egg-watcher:application] watcher start success
+2019-11-23 10:46:43,441 INFO 11980 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:46:43 GMT+0800 (GMT+08:00)
+2019-11-23 10:46:43,480 INFO 11980 [egg:core] dump config after ready, 31ms
+2019-11-23 10:48:17,082 INFO 2264 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:48:17,130 INFO 2264 [egg-multipart] stream mode enable
+2019-11-23 10:48:17,131 INFO 2264 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:48:17,280 INFO 2264 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:48:17,433 INFO 2264 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:48:17,441 INFO 2264 [egg-security] use methodnoallow middleware
+2019-11-23 10:48:17,441 INFO 2264 [egg-security] use noopen middleware
+2019-11-23 10:48:17,442 INFO 2264 [egg-security] use nosniff middleware
+2019-11-23 10:48:17,443 INFO 2264 [egg-security] use xssProtection middleware
+2019-11-23 10:48:17,444 INFO 2264 [egg-security] use xframe middleware
+2019-11-23 10:48:17,444 INFO 2264 [egg-security] use dta middleware
+2019-11-23 10:48:17,444 INFO 2264 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:48:17,489 INFO 2264 [egg:core] dump config after load, 9ms
+2019-11-23 10:48:17,508 INFO 2264 [egg-redis] client connect success
+2019-11-23 10:48:17,514 INFO 2264 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:48:17,522 INFO 2264 [egg-watcher:application] watcher start success
+2019-11-23 10:48:17,529 INFO 2264 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:48:17 GMT+0800 (GMT+08:00)
+2019-11-23 10:48:17,555 INFO 2264 [egg:core] dump config after ready, 16ms
+2019-11-23 10:48:34,538 INFO 14384 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:48:34,583 INFO 14384 [egg-multipart] stream mode enable
+2019-11-23 10:48:34,584 INFO 14384 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:48:34,739 INFO 14384 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:48:34,870 INFO 14384 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:48:34,873 INFO 14384 [egg-security] use methodnoallow middleware
+2019-11-23 10:48:34,873 INFO 14384 [egg-security] use noopen middleware
+2019-11-23 10:48:34,874 INFO 14384 [egg-security] use nosniff middleware
+2019-11-23 10:48:34,875 INFO 14384 [egg-security] use xssProtection middleware
+2019-11-23 10:48:34,877 INFO 14384 [egg-security] use xframe middleware
+2019-11-23 10:48:34,878 INFO 14384 [egg-security] use dta middleware
+2019-11-23 10:48:34,878 INFO 14384 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:48:34,918 INFO 14384 [egg:core] dump config after load, 9ms
+2019-11-23 10:48:34,940 INFO 14384 [egg-redis] client connect success
+2019-11-23 10:48:34,947 INFO 14384 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:48:34,954 INFO 14384 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:48:34 GMT+0800 (GMT+08:00)
+2019-11-23 10:48:34,958 INFO 14384 [egg-watcher:application] watcher start success
+2019-11-23 10:48:34,971 INFO 14384 [egg:core] dump config after ready, 11ms
+2019-11-23 10:50:31,714 INFO 15064 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 10:50:31,762 INFO 15064 [egg-multipart] stream mode enable
+2019-11-23 10:50:31,763 INFO 15064 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 10:50:31,942 INFO 15064 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 10:50:32,081 INFO 15064 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 10:50:32,085 INFO 15064 [egg-security] use methodnoallow middleware
+2019-11-23 10:50:32,088 INFO 15064 [egg-security] use noopen middleware
+2019-11-23 10:50:32,089 INFO 15064 [egg-security] use nosniff middleware
+2019-11-23 10:50:32,090 INFO 15064 [egg-security] use xssProtection middleware
+2019-11-23 10:50:32,090 INFO 15064 [egg-security] use xframe middleware
+2019-11-23 10:50:32,091 INFO 15064 [egg-security] use dta middleware
+2019-11-23 10:50:32,091 INFO 15064 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 10:50:32,146 INFO 15064 [egg:core] dump config after load, 12ms
+2019-11-23 10:50:32,179 INFO 15064 [egg-redis] client connect success
+2019-11-23 10:50:32,185 INFO 15064 [egg-redis] instance[0] status OK, client ready
+2019-11-23 10:50:32,193 INFO 15064 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 10:50:32 GMT+0800 (GMT+08:00)
+2019-11-23 10:50:32,196 INFO 15064 [egg-watcher:application] watcher start success
+2019-11-23 10:50:32,211 INFO 15064 [egg:core] dump config after ready, 11ms
+2019-11-23 11:05:35,413 INFO 16340 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:05:35,465 INFO 16340 [egg-multipart] stream mode enable
+2019-11-23 11:05:35,465 INFO 16340 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:05:35,683 INFO 16340 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:05:35,853 INFO 16340 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:05:35,881 INFO 16340 [egg-security] use methodnoallow middleware
+2019-11-23 11:05:35,883 INFO 16340 [egg-security] use noopen middleware
+2019-11-23 11:05:35,885 INFO 16340 [egg-security] use nosniff middleware
+2019-11-23 11:05:35,886 INFO 16340 [egg-security] use xssProtection middleware
+2019-11-23 11:05:35,891 INFO 16340 [egg-security] use xframe middleware
+2019-11-23 11:05:35,892 INFO 16340 [egg-security] use dta middleware
+2019-11-23 11:05:35,892 INFO 16340 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:05:35,963 INFO 16340 [egg:core] dump config after load, 12ms
+2019-11-23 11:05:35,989 INFO 16340 [egg-redis] client connect success
+2019-11-23 11:05:35,996 INFO 16340 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:05:36,006 INFO 16340 [egg-watcher:application] watcher start success
+2019-11-23 11:05:36,010 INFO 16340 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:05:36 GMT+0800 (GMT+08:00)
+2019-11-23 11:05:36,023 INFO 16340 [egg:core] dump config after ready, 11ms
+2019-11-23 11:07:33,497 INFO 17404 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:07:33,538 INFO 17404 [egg-multipart] stream mode enable
+2019-11-23 11:07:33,539 INFO 17404 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:07:33,665 INFO 17404 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:07:33,765 INFO 17404 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:07:33,768 INFO 17404 [egg-security] use methodnoallow middleware
+2019-11-23 11:07:33,768 INFO 17404 [egg-security] use noopen middleware
+2019-11-23 11:07:33,769 INFO 17404 [egg-security] use nosniff middleware
+2019-11-23 11:07:33,770 INFO 17404 [egg-security] use xssProtection middleware
+2019-11-23 11:07:33,770 INFO 17404 [egg-security] use xframe middleware
+2019-11-23 11:07:33,771 INFO 17404 [egg-security] use dta middleware
+2019-11-23 11:07:33,771 INFO 17404 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:07:33,804 INFO 17404 [egg:core] dump config after load, 8ms
+2019-11-23 11:07:33,821 INFO 17404 [egg-redis] client connect success
+2019-11-23 11:07:33,827 INFO 17404 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:07:33,833 INFO 17404 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:07:33 GMT+0800 (GMT+08:00)
+2019-11-23 11:07:33,835 INFO 17404 [egg-watcher:application] watcher start success
+2019-11-23 11:07:33,846 INFO 17404 [egg:core] dump config after ready, 9ms
+2019-11-23 11:10:18,573 INFO 15060 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:10:18,611 INFO 15060 [egg-multipart] stream mode enable
+2019-11-23 11:10:18,612 INFO 15060 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:10:18,745 INFO 15060 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:10:18,849 INFO 15060 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:10:18,852 INFO 15060 [egg-security] use methodnoallow middleware
+2019-11-23 11:10:18,853 INFO 15060 [egg-security] use noopen middleware
+2019-11-23 11:10:18,854 INFO 15060 [egg-security] use nosniff middleware
+2019-11-23 11:10:18,855 INFO 15060 [egg-security] use xssProtection middleware
+2019-11-23 11:10:18,856 INFO 15060 [egg-security] use xframe middleware
+2019-11-23 11:10:18,856 INFO 15060 [egg-security] use dta middleware
+2019-11-23 11:10:18,856 INFO 15060 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:10:18,891 INFO 15060 [egg:core] dump config after load, 7ms
+2019-11-23 11:10:18,911 INFO 15060 [egg-redis] client connect success
+2019-11-23 11:10:18,918 INFO 15060 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:10:18,925 INFO 15060 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:10:18 GMT+0800 (GMT+08:00)
+2019-11-23 11:10:18,927 INFO 15060 [egg-watcher:application] watcher start success
+2019-11-23 11:10:18,939 INFO 15060 [egg:core] dump config after ready, 10ms
+2019-11-23 11:11:05,336 INFO 9568 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:11:05,376 INFO 9568 [egg-multipart] stream mode enable
+2019-11-23 11:11:05,376 INFO 9568 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:11:05,495 INFO 9568 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:11:05,600 INFO 9568 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:11:05,602 INFO 9568 [egg-security] use methodnoallow middleware
+2019-11-23 11:11:05,603 INFO 9568 [egg-security] use noopen middleware
+2019-11-23 11:11:05,604 INFO 9568 [egg-security] use nosniff middleware
+2019-11-23 11:11:05,605 INFO 9568 [egg-security] use xssProtection middleware
+2019-11-23 11:11:05,605 INFO 9568 [egg-security] use xframe middleware
+2019-11-23 11:11:05,606 INFO 9568 [egg-security] use dta middleware
+2019-11-23 11:11:05,606 INFO 9568 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:11:05,640 INFO 9568 [egg:core] dump config after load, 8ms
+2019-11-23 11:11:05,659 INFO 9568 [egg-redis] client connect success
+2019-11-23 11:11:05,664 INFO 9568 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:11:05,670 INFO 9568 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:11:05 GMT+0800 (GMT+08:00)
+2019-11-23 11:11:05,673 INFO 9568 [egg-watcher:application] watcher start success
+2019-11-23 11:11:05,683 INFO 9568 [egg:core] dump config after ready, 7ms
+2019-11-23 11:15:08,375 INFO 16256 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:15:08,428 INFO 16256 [egg-multipart] stream mode enable
+2019-11-23 11:15:08,428 INFO 16256 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:15:08,598 INFO 16256 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:15:08,699 INFO 16256 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:15:08,703 INFO 16256 [egg-security] use methodnoallow middleware
+2019-11-23 11:15:08,704 INFO 16256 [egg-security] use noopen middleware
+2019-11-23 11:15:08,705 INFO 16256 [egg-security] use nosniff middleware
+2019-11-23 11:15:08,705 INFO 16256 [egg-security] use xssProtection middleware
+2019-11-23 11:15:08,706 INFO 16256 [egg-security] use xframe middleware
+2019-11-23 11:15:08,706 INFO 16256 [egg-security] use dta middleware
+2019-11-23 11:15:08,706 INFO 16256 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:15:08,739 INFO 16256 [egg:core] dump config after load, 8ms
+2019-11-23 11:15:08,756 INFO 16256 [egg-redis] client connect success
+2019-11-23 11:15:08,762 INFO 16256 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:15:08,768 INFO 16256 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:15:08 GMT+0800 (GMT+08:00)
+2019-11-23 11:15:08,771 INFO 16256 [egg-watcher:application] watcher start success
+2019-11-23 11:15:08,783 INFO 16256 [egg:core] dump config after ready, 9ms
+2019-11-23 11:30:57,807 INFO 17184 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:30:57,847 INFO 17184 [egg-multipart] stream mode enable
+2019-11-23 11:30:57,847 INFO 17184 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:30:57,975 INFO 17184 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:30:58,073 INFO 17184 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:30:58,076 INFO 17184 [egg-security] use methodnoallow middleware
+2019-11-23 11:30:58,076 INFO 17184 [egg-security] use noopen middleware
+2019-11-23 11:30:58,078 INFO 17184 [egg-security] use nosniff middleware
+2019-11-23 11:30:58,078 INFO 17184 [egg-security] use xssProtection middleware
+2019-11-23 11:30:58,079 INFO 17184 [egg-security] use xframe middleware
+2019-11-23 11:30:58,079 INFO 17184 [egg-security] use dta middleware
+2019-11-23 11:30:58,079 INFO 17184 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:30:58,112 INFO 17184 [egg:core] dump config after load, 9ms
+2019-11-23 11:30:58,130 INFO 17184 [egg-redis] client connect success
+2019-11-23 11:30:58,137 INFO 17184 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:30:58,143 INFO 17184 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:30:58 GMT+0800 (GMT+08:00)
+2019-11-23 11:30:58,146 INFO 17184 [egg-watcher:application] watcher start success
+2019-11-23 11:30:58,157 INFO 17184 [egg:core] dump config after ready, 9ms
+2019-11-23 11:47:33,965 INFO 18568 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:47:34,020 INFO 18568 [egg-multipart] stream mode enable
+2019-11-23 11:47:34,021 INFO 18568 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:47:34,183 INFO 18568 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:47:34,289 INFO 18568 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:47:34,294 INFO 18568 [egg-security] use methodnoallow middleware
+2019-11-23 11:47:34,295 INFO 18568 [egg-security] use noopen middleware
+2019-11-23 11:47:34,296 INFO 18568 [egg-security] use nosniff middleware
+2019-11-23 11:47:34,297 INFO 18568 [egg-security] use xssProtection middleware
+2019-11-23 11:47:34,297 INFO 18568 [egg-security] use xframe middleware
+2019-11-23 11:47:34,298 INFO 18568 [egg-security] use dta middleware
+2019-11-23 11:47:34,298 INFO 18568 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:47:34,330 INFO 18568 [egg:core] dump config after load, 8ms
+2019-11-23 11:47:34,345 INFO 18568 [egg-redis] client connect success
+2019-11-23 11:47:34,351 INFO 18568 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:47:34,356 INFO 18568 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:47:34 GMT+0800 (GMT+08:00)
+2019-11-23 11:47:34,360 INFO 18568 [egg-watcher:application] watcher start success
+2019-11-23 11:47:34,372 INFO 18568 [egg:core] dump config after ready, 9ms
+2019-11-23 11:49:40,196 INFO 18752 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:49:40,234 INFO 18752 [egg-multipart] stream mode enable
+2019-11-23 11:49:40,234 INFO 18752 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:49:40,361 INFO 18752 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:49:40,483 INFO 18752 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:49:40,486 INFO 18752 [egg-security] use methodnoallow middleware
+2019-11-23 11:49:40,487 INFO 18752 [egg-security] use noopen middleware
+2019-11-23 11:49:40,488 INFO 18752 [egg-security] use nosniff middleware
+2019-11-23 11:49:40,488 INFO 18752 [egg-security] use xssProtection middleware
+2019-11-23 11:49:40,489 INFO 18752 [egg-security] use xframe middleware
+2019-11-23 11:49:40,490 INFO 18752 [egg-security] use dta middleware
+2019-11-23 11:49:40,490 INFO 18752 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:49:40,523 INFO 18752 [egg:core] dump config after load, 7ms
+2019-11-23 11:49:40,539 INFO 18752 [egg-redis] client connect success
+2019-11-23 11:49:40,544 INFO 18752 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:49:40,551 INFO 18752 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:49:40 GMT+0800 (GMT+08:00)
+2019-11-23 11:49:40,554 INFO 18752 [egg-watcher:application] watcher start success
+2019-11-23 11:49:40,566 INFO 18752 [egg:core] dump config after ready, 10ms
+2019-11-23 11:50:34,970 INFO 19068 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:50:35,009 INFO 19068 [egg-multipart] stream mode enable
+2019-11-23 11:50:35,009 INFO 19068 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:50:35,130 INFO 19068 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:50:35,248 INFO 19068 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:50:35,254 INFO 19068 [egg-security] use methodnoallow middleware
+2019-11-23 11:50:35,254 INFO 19068 [egg-security] use noopen middleware
+2019-11-23 11:50:35,255 INFO 19068 [egg-security] use nosniff middleware
+2019-11-23 11:50:35,256 INFO 19068 [egg-security] use xssProtection middleware
+2019-11-23 11:50:35,256 INFO 19068 [egg-security] use xframe middleware
+2019-11-23 11:50:35,257 INFO 19068 [egg-security] use dta middleware
+2019-11-23 11:50:35,257 INFO 19068 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:50:35,293 INFO 19068 [egg:core] dump config after load, 8ms
+2019-11-23 11:50:35,313 INFO 19068 [egg-redis] client connect success
+2019-11-23 11:50:35,320 INFO 19068 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:50:35,327 INFO 19068 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:50:35 GMT+0800 (GMT+08:00)
+2019-11-23 11:50:35,329 INFO 19068 [egg-watcher:application] watcher start success
+2019-11-23 11:50:35,345 INFO 19068 [egg:core] dump config after ready, 14ms
+2019-11-23 11:52:38,472 INFO 7348 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 11:52:38,511 INFO 7348 [egg-multipart] stream mode enable
+2019-11-23 11:52:38,512 INFO 7348 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 11:52:38,642 INFO 7348 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 11:52:38,744 INFO 7348 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 11:52:38,747 INFO 7348 [egg-security] use methodnoallow middleware
+2019-11-23 11:52:38,748 INFO 7348 [egg-security] use noopen middleware
+2019-11-23 11:52:38,749 INFO 7348 [egg-security] use nosniff middleware
+2019-11-23 11:52:38,750 INFO 7348 [egg-security] use xssProtection middleware
+2019-11-23 11:52:38,751 INFO 7348 [egg-security] use xframe middleware
+2019-11-23 11:52:38,751 INFO 7348 [egg-security] use dta middleware
+2019-11-23 11:52:38,751 INFO 7348 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 11:52:38,784 INFO 7348 [egg:core] dump config after load, 8ms
+2019-11-23 11:52:38,802 INFO 7348 [egg-redis] client connect success
+2019-11-23 11:52:38,811 INFO 7348 [egg-redis] instance[0] status OK, client ready
+2019-11-23 11:52:38,817 INFO 7348 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 11:52:38 GMT+0800 (GMT+08:00)
+2019-11-23 11:52:38,820 INFO 7348 [egg-watcher:application] watcher start success
+2019-11-23 11:52:38,833 INFO 7348 [egg:core] dump config after ready, 10ms
+2019-11-23 12:06:54,420 INFO 15936 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 12:06:54,458 INFO 15936 [egg-multipart] stream mode enable
+2019-11-23 12:06:54,459 INFO 15936 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 12:06:54,583 INFO 15936 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 12:06:54,692 INFO 15936 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 12:06:54,695 INFO 15936 [egg-security] use methodnoallow middleware
+2019-11-23 12:06:54,696 INFO 15936 [egg-security] use noopen middleware
+2019-11-23 12:06:54,697 INFO 15936 [egg-security] use nosniff middleware
+2019-11-23 12:06:54,698 INFO 15936 [egg-security] use xssProtection middleware
+2019-11-23 12:06:54,698 INFO 15936 [egg-security] use xframe middleware
+2019-11-23 12:06:54,699 INFO 15936 [egg-security] use dta middleware
+2019-11-23 12:06:54,699 INFO 15936 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 12:06:54,734 INFO 15936 [egg:core] dump config after load, 7ms
+2019-11-23 12:06:54,753 INFO 15936 [egg-redis] client connect success
+2019-11-23 12:06:54,760 INFO 15936 [egg-redis] instance[0] status OK, client ready
+2019-11-23 12:06:54,765 INFO 15936 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 12:06:54 GMT+0800 (GMT+08:00)
+2019-11-23 12:06:54,768 INFO 15936 [egg-watcher:application] watcher start success
+2019-11-23 12:06:54,779 INFO 15936 [egg:core] dump config after ready, 9ms
+2019-11-23 12:07:55,868 INFO 18560 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 12:07:55,909 INFO 18560 [egg-multipart] stream mode enable
+2019-11-23 12:07:55,910 INFO 18560 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 12:07:56,045 INFO 18560 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 12:07:56,147 INFO 18560 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 12:07:56,150 INFO 18560 [egg-security] use methodnoallow middleware
+2019-11-23 12:07:56,151 INFO 18560 [egg-security] use noopen middleware
+2019-11-23 12:07:56,152 INFO 18560 [egg-security] use nosniff middleware
+2019-11-23 12:07:56,152 INFO 18560 [egg-security] use xssProtection middleware
+2019-11-23 12:07:56,153 INFO 18560 [egg-security] use xframe middleware
+2019-11-23 12:07:56,153 INFO 18560 [egg-security] use dta middleware
+2019-11-23 12:07:56,153 INFO 18560 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 12:07:56,188 INFO 18560 [egg:core] dump config after load, 8ms
+2019-11-23 12:07:56,209 INFO 18560 [egg-redis] client connect success
+2019-11-23 12:07:56,216 INFO 18560 [egg-redis] instance[0] status OK, client ready
+2019-11-23 12:07:56,224 INFO 18560 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 12:07:56 GMT+0800 (GMT+08:00)
+2019-11-23 12:07:56,227 INFO 18560 [egg-watcher:application] watcher start success
+2019-11-23 12:07:56,240 INFO 18560 [egg:core] dump config after ready, 11ms
+2019-11-23 13:39:04,806 WARN 18560 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-23 13:55:48,978 INFO 18688 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 13:55:49,021 INFO 18688 [egg-multipart] stream mode enable
+2019-11-23 13:55:49,022 INFO 18688 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 13:55:49,193 INFO 18688 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 13:55:49,338 INFO 18688 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 13:55:49,343 INFO 18688 [egg-security] use methodnoallow middleware
+2019-11-23 13:55:49,346 INFO 18688 [egg-security] use noopen middleware
+2019-11-23 13:55:49,348 INFO 18688 [egg-security] use nosniff middleware
+2019-11-23 13:55:49,349 INFO 18688 [egg-security] use xssProtection middleware
+2019-11-23 13:55:49,350 INFO 18688 [egg-security] use xframe middleware
+2019-11-23 13:55:49,351 INFO 18688 [egg-security] use dta middleware
+2019-11-23 13:55:49,351 INFO 18688 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 13:55:49,410 INFO 18688 [egg:core] dump config after load, 21ms
+2019-11-23 13:55:49,444 INFO 18688 [egg-redis] client connect success
+2019-11-23 13:55:49,453 INFO 18688 [egg-redis] instance[0] status OK, client ready
+2019-11-23 13:55:49,460 INFO 18688 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 13:55:49 GMT+0800 (GMT+08:00)
+2019-11-23 13:55:49,464 INFO 18688 [egg-watcher:application] watcher start success
+2019-11-23 13:55:49,475 INFO 18688 [egg:core] dump config after ready, 8ms
+2019-11-23 15:34:42,850 INFO 17680 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 15:34:42,929 INFO 17680 [egg-multipart] stream mode enable
+2019-11-23 15:34:42,930 INFO 17680 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 15:34:43,110 INFO 17680 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 15:34:43,345 INFO 17680 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 15:34:43,355 INFO 17680 [egg-security] use methodnoallow middleware
+2019-11-23 15:34:43,356 INFO 17680 [egg-security] use noopen middleware
+2019-11-23 15:34:43,361 INFO 17680 [egg-security] use nosniff middleware
+2019-11-23 15:34:43,362 INFO 17680 [egg-security] use xssProtection middleware
+2019-11-23 15:34:43,363 INFO 17680 [egg-security] use xframe middleware
+2019-11-23 15:34:43,364 INFO 17680 [egg-security] use dta middleware
+2019-11-23 15:34:43,364 INFO 17680 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 15:34:43,518 INFO 17680 [egg:core] dump config after load, 71ms
+2019-11-23 15:34:43,557 INFO 17680 [egg-redis] client connect success
+2019-11-23 15:34:43,562 INFO 17680 [egg-redis] instance[0] status OK, client ready
+2019-11-23 15:34:43,585 INFO 17680 [egg-watcher:application] watcher start success
+2019-11-23 15:34:43,590 INFO 17680 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 15:34:43 GMT+0800 (GMT+08:00)
+2019-11-23 15:34:43,659 INFO 17680 [egg:core] dump config after ready, 61ms
+2019-11-23 15:58:58,781 INFO 24684 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 15:58:58,818 INFO 24684 [egg-multipart] stream mode enable
+2019-11-23 15:58:58,818 INFO 24684 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 15:58:58,945 INFO 24684 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 15:58:59,045 INFO 24684 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 15:58:59,048 INFO 24684 [egg-security] use methodnoallow middleware
+2019-11-23 15:58:59,048 INFO 24684 [egg-security] use noopen middleware
+2019-11-23 15:58:59,049 INFO 24684 [egg-security] use nosniff middleware
+2019-11-23 15:58:59,050 INFO 24684 [egg-security] use xssProtection middleware
+2019-11-23 15:58:59,050 INFO 24684 [egg-security] use xframe middleware
+2019-11-23 15:58:59,051 INFO 24684 [egg-security] use dta middleware
+2019-11-23 15:58:59,051 INFO 24684 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 15:58:59,082 INFO 24684 [egg:core] dump config after load, 7ms
+2019-11-23 15:58:59,099 INFO 24684 [egg-redis] client connect success
+2019-11-23 15:58:59,105 INFO 24684 [egg-redis] instance[0] status OK, client ready
+2019-11-23 15:58:59,112 INFO 24684 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 15:58:59 GMT+0800 (GMT+08:00)
+2019-11-23 15:58:59,114 INFO 24684 [egg-watcher:application] watcher start success
+2019-11-23 15:58:59,126 INFO 24684 [egg:core] dump config after ready, 10ms
+2019-11-23 16:07:23,938 INFO 11812 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 16:07:23,985 INFO 11812 [egg-multipart] stream mode enable
+2019-11-23 16:07:23,986 INFO 11812 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 16:07:24,104 INFO 11812 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 16:07:24,213 INFO 11812 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 16:07:24,217 INFO 11812 [egg-security] use methodnoallow middleware
+2019-11-23 16:07:24,218 INFO 11812 [egg-security] use noopen middleware
+2019-11-23 16:07:24,219 INFO 11812 [egg-security] use nosniff middleware
+2019-11-23 16:07:24,219 INFO 11812 [egg-security] use xssProtection middleware
+2019-11-23 16:07:24,220 INFO 11812 [egg-security] use xframe middleware
+2019-11-23 16:07:24,220 INFO 11812 [egg-security] use dta middleware
+2019-11-23 16:07:24,220 INFO 11812 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 16:07:24,252 INFO 11812 [egg:core] dump config after load, 7ms
+2019-11-23 16:07:24,269 INFO 11812 [egg-redis] client connect success
+2019-11-23 16:07:24,274 INFO 11812 [egg-redis] instance[0] status OK, client ready
+2019-11-23 16:07:24,281 INFO 11812 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 16:07:24 GMT+0800 (GMT+08:00)
+2019-11-23 16:07:24,283 INFO 11812 [egg-watcher:application] watcher start success
+2019-11-23 16:07:24,294 INFO 11812 [egg:core] dump config after ready, 9ms
+2019-11-23 16:30:52,366 INFO 25544 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-23 16:30:52,406 INFO 25544 [egg-multipart] stream mode enable
+2019-11-23 16:30:52,406 INFO 25544 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-11-23 16:30:52,533 INFO 25544 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-11-23 16:30:52,643 INFO 25544 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-11-23 16:30:52,646 INFO 25544 [egg-security] use methodnoallow middleware
+2019-11-23 16:30:52,647 INFO 25544 [egg-security] use noopen middleware
+2019-11-23 16:30:52,648 INFO 25544 [egg-security] use nosniff middleware
+2019-11-23 16:30:52,649 INFO 25544 [egg-security] use xssProtection middleware
+2019-11-23 16:30:52,650 INFO 25544 [egg-security] use xframe middleware
+2019-11-23 16:30:52,650 INFO 25544 [egg-security] use dta middleware
+2019-11-23 16:30:52,650 INFO 25544 [egg-security] compose 6 middlewares into one security middleware
+2019-11-23 16:30:52,683 INFO 25544 [egg:core] dump config after load, 7ms
+2019-11-23 16:30:52,700 INFO 25544 [egg-redis] client connect success
+2019-11-23 16:30:52,707 INFO 25544 [egg-redis] instance[0] status OK, client ready
+2019-11-23 16:30:52,712 INFO 25544 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 23 2019 16:30:52 GMT+0800 (GMT+08:00)
+2019-11-23 16:30:52,714 INFO 25544 [egg-watcher:application] watcher start success
+2019-11-23 16:30:52,725 INFO 25544 [egg:core] dump config after ready, 8ms
