@@ -342,3 +342,390 @@ name: "ClusterClientNoResponseError"
 pid: 18512
 hostname: PC-201903022055
 
+2019-11-25 14:33:02,648 ERROR 10664 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 10664
+hostname: PC-201903022055
+
+2019-11-25 15:44:03,047 ERROR 6768 nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application " ...skip... "strator\\appdata\\local\\programs\\python\\python37\\Lib\\json\\encoder.py\", line 438, in _iterencode\n    o = _default(o)\n  File \"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\json\\__init__.py\", line 100, in default\n    return _json.JSONEncoder.default(self, o)\n  File \"c:\\users\\administrator\\appdata\\local\\programs\\python\\python37\\Lib\\json\\encoder.py\", line 179, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type WeiboRecord is not JSON serializable\n\n-->\n"), POST http://localhost:5000/weibo/capture 500 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:5000:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:44:03 GMT"}
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:44:03 GMT"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:1153:24)
+    at F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1103:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "JSONResponseFormatError"
+data: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application state. -->\n    <link rel=\"shortcut icon\"\n        href=\"?__debugger__=yes&amp;cmd=resource&amp;f=console.png\">\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js\"></script>\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js\"></script>\n    <script type=\"text/javascript\">\n      var TRACEBACK = 2483365888632,\n          CONSOLE_MODE = false,\n          EVALEX = true,\n          EVALEX_TRUSTED = false,\n          SECRET = \"kCWOQGyVD7uhkBVvoYRd\";\n    </script>\n  </head>\n  <body style=\"background-color: #fff\">\n    <div class=\"debugger\">\n<h1>TypeError</h1>\n<div class=\"detail\">\n  <p class=\"errormsg\">TypeError: Object of type WeiboRecord is not JSON serializable</p>\n</div>\n<h2 class=\"traceback\">Traceback <em>(most recent call last)</em></h2>\n<div class=\"traceback\">\n  \n  <ul><li><div class=\"frame\" id=\"frame-2483366883512\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2463</em>,\n      in <code class=\"function\">__call__</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def __call__(self, environ, start_response):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.wsgi_app(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>def __repr__(self):</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883680\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2449</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>return response(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>finally:</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883568\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask_cors\\extension.py\"</cite>,\n      line <em class=\"line\">161</em>,\n      in <code class=\"function\">wrapped_function</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span># Wrap exception handlers with cross_origin</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span># These error handlers will still respect the behavior of the route</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if options.get('intercept_exceptions', True):</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>def _after_request_decorator(f):</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>def wrapped_function(*args, **kwargs):</pre>\n<pre class=\"line current\"><span class=\"ws\">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>return wrapped_function</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>if hasattr(app, 'handle_exception'):</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>app.handle_exception = _after_request_decorator(</pre>\n<pre class=\"line after\"><span class=\"ws\">                    </span>app.handle_exception)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366887096\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1866</em>,\n      in <code class=\"function\">handle_exception</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span># if we want to repropagate the exception, we can attempt to</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># raise it with the whole traceback in case we can do that</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># (the function was actually called from the except part)</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># otherwise, we just raise the error again</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if exc_value is e:</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>reraise(exc_type, exc_value, tb)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise e</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>self.log_exception((exc_type, exc_value, tb))</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>server_error = InternalServerError()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883624\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\_compat.py\"</cite>,\n      line <em class=\"line\">39</em>,\n      in <code class=\"function\">reraise</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">    </span>import collections.abc as collections_abc</pre>\n<pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def reraise(tp, value, tb=None):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if value.__traceback__ is not tb:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>raise value.with_traceback(tb)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>raise value</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>implements_to_string = _identity</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\"></span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883904\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2446</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span>ctx = self.request_context(environ)</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>error = None</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366886648\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1952</em>,\n      in <code class=\"function\">full_dispatch_request</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>rv = self.preprocess_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if rv is None:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>rv = self.dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>rv = self.handle_user_exception(e)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.finalize_request(rv)</pre>\n<pre class=\"l...(32732)"
+path: "/weibo/capture"
+status: 500
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:44:03 GMT"}
+res: {"status":500,"statusCode":500,"statusMessage":"INTERNAL SERVER ERROR","headers":{"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:44:03 GMT"},"size":32732,"aborted":false,"rt":240,"keepAliveSocket":false,"data":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application state. -->\n    <link rel=\"shortcut icon\"\n        href=\"?__debugger__=yes&amp;cmd=resource&amp;f=console.png\">\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js\"></script>\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js\"></script>\n    <script type=\"text/javascript\">\n      var TRACEBACK = 2483365888632,\n          CONSOLE_MODE = false,\n          EVALEX = true,\n          EVALEX_TRUSTED = false,\n          SECRET = \"kCWOQGyVD7uhkBVvoYRd\";\n    </script>\n  </head>\n  <body style=\"background-color: #fff\">\n    <div class=\"debugger\">\n<h1>TypeError</h1>\n<div class=\"detail\">\n  <p class=\"errormsg\">TypeError: Object of type WeiboRecord is not JSON serializable</p>\n</div>\n<h2 class=\"traceback\">Traceback <em>(most recent call last)</em></h2>\n<div class=\"traceback\">\n  \n  <ul><li><div class=\"frame\" id=\"frame-2483366883512\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2463</em>,\n      in <code class=\"function\">__call__</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def __call__(self, environ, start_response):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.wsgi_app(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>def __repr__(self):</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883680\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2449</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>return response(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>finally:</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883568\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask_cors\\extension.py\"</cite>,\n      line <em class=\"line\">161</em>,\n      in <code class=\"function\">wrapped_function</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span># Wrap exception handlers with cross_origin</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span># These error handlers will still respect the behavior of the route</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if options.get('intercept_exceptions', True):</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>def _after_request_decorator(f):</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>def wrapped_function(*args, **kwargs):</pre>\n<pre class=\"line current\"><span class=\"ws\">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>return wrapped_function</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>if hasattr(app, 'handle_exception'):</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>app.handle_exception = _after_request_decorator(</pre>\n<pre class=\"line after\"><span class=\"ws\">                    </span>app.handle_exception)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366887096\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1866</em>,\n      in <code class=\"function\">handle_exception</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span># if we want to repropagate the exception, we can attempt to</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># raise it with the whole traceback in case we can do that</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># (the function was actually called from the except part)</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># otherwise, we just raise the error again</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if exc_value is e:</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>reraise(exc_type, exc_value, tb)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise e</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>self.log_exception((exc_type, exc_value, tb))</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>server_error = InternalServerError()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883624\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\_compat.py\"</cite>,\n      line <em class=\"line\">39</em>,\n      in <code class=\"function\">reraise</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">    </span>import collections.abc as collections_abc</pre>\n<pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def reraise(tp, value, tb=None):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if value.__traceback__ is not tb:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>raise value.with_traceback(tb)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>raise value</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>implements_to_string = _identity</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\"></span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366883904\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2446</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span>ctx = self.request_context(environ)</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>error = None</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2483366886648\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1952</em>,\n      in <code class=\"function\">full_dispatch_request</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>rv = self.preprocess_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if rv is None:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>rv = self.dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>rv = self.handle_user_exception(e)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.finalize_request(rv)</pre>\n<pre class=\"l...(32732)","requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":5000,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 6768
+hostname: PC-201903022055
+
+2019-11-25 15:45:07,773 ERROR 6768 nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application " ...skip... "strator\\appdata\\local\\programs\\python\\python37\\Lib\\json\\encoder.py\", line 438, in _iterencode\n    o = _default(o)\n  File \"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\json\\__init__.py\", line 100, in default\n    return _json.JSONEncoder.default(self, o)\n  File \"c:\\users\\administrator\\appdata\\local\\programs\\python\\python37\\Lib\\json\\encoder.py\", line 179, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type WeiboRecord is not JSON serializable\n\n-->\n"), POST http://localhost:5000/weibo/capture 500 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:5000:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:45:07 GMT"}
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:45:07 GMT"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:1153:24)
+    at F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:883:23
+    at decodeContent (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:690:14)
+    at IncomingMessage.<anonymous> (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:864:7)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1103:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "JSONResponseFormatError"
+data: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application state. -->\n    <link rel=\"shortcut icon\"\n        href=\"?__debugger__=yes&amp;cmd=resource&amp;f=console.png\">\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js\"></script>\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js\"></script>\n    <script type=\"text/javascript\">\n      var TRACEBACK = 2455154541120,\n          CONSOLE_MODE = false,\n          EVALEX = true,\n          EVALEX_TRUSTED = false,\n          SECRET = \"4VpDuv45Xp1Qs2gguCUI\";\n    </script>\n  </head>\n  <body style=\"background-color: #fff\">\n    <div class=\"debugger\">\n<h1>TypeError</h1>\n<div class=\"detail\">\n  <p class=\"errormsg\">TypeError: Object of type WeiboRecord is not JSON serializable</p>\n</div>\n<h2 class=\"traceback\">Traceback <em>(most recent call last)</em></h2>\n<div class=\"traceback\">\n  \n  <ul><li><div class=\"frame\" id=\"frame-2455155536000\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2463</em>,\n      in <code class=\"function\">__call__</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def __call__(self, environ, start_response):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.wsgi_app(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>def __repr__(self):</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536168\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2449</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>return response(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>finally:</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536056\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask_cors\\extension.py\"</cite>,\n      line <em class=\"line\">161</em>,\n      in <code class=\"function\">wrapped_function</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span># Wrap exception handlers with cross_origin</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span># These error handlers will still respect the behavior of the route</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if options.get('intercept_exceptions', True):</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>def _after_request_decorator(f):</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>def wrapped_function(*args, **kwargs):</pre>\n<pre class=\"line current\"><span class=\"ws\">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>return wrapped_function</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>if hasattr(app, 'handle_exception'):</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>app.handle_exception = _after_request_decorator(</pre>\n<pre class=\"line after\"><span class=\"ws\">                    </span>app.handle_exception)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155539584\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1866</em>,\n      in <code class=\"function\">handle_exception</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span># if we want to repropagate the exception, we can attempt to</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># raise it with the whole traceback in case we can do that</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># (the function was actually called from the except part)</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># otherwise, we just raise the error again</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if exc_value is e:</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>reraise(exc_type, exc_value, tb)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise e</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>self.log_exception((exc_type, exc_value, tb))</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>server_error = InternalServerError()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536112\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\_compat.py\"</cite>,\n      line <em class=\"line\">39</em>,\n      in <code class=\"function\">reraise</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">    </span>import collections.abc as collections_abc</pre>\n<pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def reraise(tp, value, tb=None):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if value.__traceback__ is not tb:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>raise value.with_traceback(tb)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>raise value</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>implements_to_string = _identity</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\"></span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536392\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2446</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span>ctx = self.request_context(environ)</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>error = None</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536672\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1952</em>,\n      in <code class=\"function\">full_dispatch_request</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>rv = self.preprocess_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if rv is None:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>rv = self.dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>rv = self.handle_user_exception(e)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.finalize_request(rv)</pre>\n<pre class=\"l...(32732)"
+path: "/weibo/capture"
+status: 500
+headers: {"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:45:07 GMT"}
+res: {"status":500,"statusCode":500,"statusMessage":"INTERNAL SERVER ERROR","headers":{"content-type":"text/html; charset=utf-8","x-xss-protection":"0","connection":"close","server":"Werkzeug/0.16.0 Python/3.7.0","date":"Mon, 25 Nov 2019 07:45:07 GMT"},"size":32732,"aborted":false,"rt":141,"keepAliveSocket":false,"data":"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n  \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n  <head>\n    <title>TypeError: Object of type WeiboRecord is not JSON serializable // Werkzeug Debugger</title>\n    <link rel=\"stylesheet\" href=\"?__debugger__=yes&amp;cmd=resource&amp;f=style.css\"\n        type=\"text/css\">\n    <!-- We need to make sure this has a favicon so that the debugger does\n         not by accident trigger a request to /favicon.ico which might\n         change the application state. -->\n    <link rel=\"shortcut icon\"\n        href=\"?__debugger__=yes&amp;cmd=resource&amp;f=console.png\">\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js\"></script>\n    <script src=\"?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js\"></script>\n    <script type=\"text/javascript\">\n      var TRACEBACK = 2455154541120,\n          CONSOLE_MODE = false,\n          EVALEX = true,\n          EVALEX_TRUSTED = false,\n          SECRET = \"4VpDuv45Xp1Qs2gguCUI\";\n    </script>\n  </head>\n  <body style=\"background-color: #fff\">\n    <div class=\"debugger\">\n<h1>TypeError</h1>\n<div class=\"detail\">\n  <p class=\"errormsg\">TypeError: Object of type WeiboRecord is not JSON serializable</p>\n</div>\n<h2 class=\"traceback\">Traceback <em>(most recent call last)</em></h2>\n<div class=\"traceback\">\n  \n  <ul><li><div class=\"frame\" id=\"frame-2455155536000\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2463</em>,\n      in <code class=\"function\">__call__</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def __call__(self, environ, start_response):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.wsgi_app(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>def __repr__(self):</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536168\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2449</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>return response(environ, start_response)</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>finally:</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536056\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask_cors\\extension.py\"</cite>,\n      line <em class=\"line\">161</em>,\n      in <code class=\"function\">wrapped_function</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span># Wrap exception handlers with cross_origin</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span># These error handlers will still respect the behavior of the route</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if options.get('intercept_exceptions', True):</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>def _after_request_decorator(f):</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>def wrapped_function(*args, **kwargs):</pre>\n<pre class=\"line current\"><span class=\"ws\">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>return wrapped_function</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>if hasattr(app, 'handle_exception'):</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>app.handle_exception = _after_request_decorator(</pre>\n<pre class=\"line after\"><span class=\"ws\">                    </span>app.handle_exception)</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155539584\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1866</em>,\n      in <code class=\"function\">handle_exception</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span># if we want to repropagate the exception, we can attempt to</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># raise it with the whole traceback in case we can do that</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># (the function was actually called from the except part)</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span># otherwise, we just raise the error again</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if exc_value is e:</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>reraise(exc_type, exc_value, tb)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>raise e</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>self.log_exception((exc_type, exc_value, tb))</pre>\n<pre class=\"line after\"><span class=\"ws\">        </span>server_error = InternalServerError()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536112\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\_compat.py\"</cite>,\n      line <em class=\"line\">39</em>,\n      in <code class=\"function\">reraise</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">    </span>import collections.abc as collections_abc</pre>\n<pre class=\"line before\"><span class=\"ws\"></span> </pre>\n<pre class=\"line before\"><span class=\"ws\">    </span>def reraise(tp, value, tb=None):</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>if value.__traceback__ is not tb:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>raise value.with_traceback(tb)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>raise value</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>implements_to_string = _identity</pre>\n<pre class=\"line after\"><span class=\"ws\"></span> </pre>\n<pre class=\"line after\"><span class=\"ws\"></span>else:</pre>\n<pre class=\"line after\"><span class=\"ws\">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536392\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">2446</em>,\n      in <code class=\"function\">wsgi_app</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">        </span>ctx = self.request_context(environ)</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>error = None</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>try:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>ctx.push()</pre>\n<pre class=\"line current\"><span class=\"ws\">                </span>response = self.full_dispatch_request()</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except Exception as e:</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = e</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>response = self.handle_exception(e)</pre>\n<pre class=\"line after\"><span class=\"ws\">            </span>except:  # noqa: B001</pre>\n<pre class=\"line after\"><span class=\"ws\">                </span>error = sys.exc_info()[1]</pre></div>\n</div>\n\n<li><div class=\"frame\" id=\"frame-2455155536672\">\n  <h4>File <cite class=\"filename\">\"F:\\exerciseCode\\python\\flask-umi\\umi\\lib\\site-packages\\flask\\app.py\"</cite>,\n      line <em class=\"line\">1952</em>,\n      in <code class=\"function\">full_dispatch_request</code></h4>\n  <div class=\"source library\"><pre class=\"line before\"><span class=\"ws\">            </span>rv = self.preprocess_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>if rv is None:</pre>\n<pre class=\"line before\"><span class=\"ws\">                </span>rv = self.dispatch_request()</pre>\n<pre class=\"line before\"><span class=\"ws\">        </span>except Exception as e:</pre>\n<pre class=\"line before\"><span class=\"ws\">            </span>rv = self.handle_user_exception(e)</pre>\n<pre class=\"line current\"><span class=\"ws\">        </span>return self.finalize_request(rv)</pre>\n<pre class=\"l...(32732)","requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":5000,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 6768
+hostname: PC-201903022055
+
+2019-11-25 16:02:40,020 ERROR 12784 nodejs.EADDRINUSEError: bind EADDRINUSE null:8000 (uncaughtException throw 1 times on pid:12784)
+    at listenOnMasterHandle (net.js:1344:16)
+    at shared (internal/cluster/child.js:120:3)
+    at Worker.send (internal/cluster/child.js:91:7)
+    at process.onInternalMessage (internal/cluster/utils.js:45:8)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "EADDRINUSE"
+code: "EADDRINUSE"
+syscall: "bind"
+address: null
+port: 8000
+name: "EADDRINUSEError"
+pid: 12784
+hostname: PC-201903022055
+
+2019-11-25 16:04:56,689 ERROR 15808 nodejs.EADDRINUSEError: bind EADDRINUSE null:8001 (uncaughtException throw 1 times on pid:15808)
+    at listenOnMasterHandle (net.js:1344:16)
+    at shared (internal/cluster/child.js:120:3)
+    at Worker.send (internal/cluster/child.js:91:7)
+    at process.onInternalMessage (internal/cluster/utils.js:45:8)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "EADDRINUSE"
+code: "EADDRINUSE"
+syscall: "bind"
+address: null
+port: 8001
+name: "EADDRINUSEError"
+pid: 15808
+hostname: PC-201903022055
+
+2019-11-25 16:05:49,801 ERROR 21852 nodejs.EADDRINUSEError: bind EADDRINUSE null:8001 (uncaughtException throw 1 times on pid:21852)
+    at listenOnMasterHandle (net.js:1344:16)
+    at shared (internal/cluster/child.js:120:3)
+    at Worker.send (internal/cluster/child.js:91:7)
+    at process.onInternalMessage (internal/cluster/utils.js:45:8)
+    at process.emit (events.js:194:15)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+errno: "EADDRINUSE"
+code: "EADDRINUSE"
+syscall: "bind"
+address: null
+port: 8001
+name: "EADDRINUSEError"
+pid: 21852
+hostname: PC-201903022055
+
+2019-11-27 10:52:36,421 ERROR 13084 nodejs.ReferenceError: action is not defined
+    at app.ready (F:\exerciseCode\js\node\egg-example\app.js:15:22)
+    at process.nextTick (F:\exerciseCode\js\node\egg-example\node_modules\get-ready\index.js:73:53)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 13084
+hostname: PC-201903022055
+
+2019-11-27 10:54:09,805 ERROR 12148 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 12148
+hostname: PC-201903022055
+
+2019-11-27 11:01:20,534 ERROR 12468 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 12468
+hostname: PC-201903022055
+
+2019-11-27 11:33:47,202 ERROR 12468 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 12468
+hostname: PC-201903022055
+
+2019-11-27 11:35:57,362 ERROR 12468 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 12468
+hostname: PC-201903022055
+
+2019-11-27 11:37:42,136 ERROR 12468 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 12468
+hostname: PC-201903022055
+
+2019-11-27 11:43:43,156 ERROR 15820 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 15820
+hostname: PC-201903022055
+
+2019-11-27 11:48:15,931 ERROR 14988 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 14988
+hostname: PC-201903022055
+
+2019-11-27 11:50:12,022 ERROR 16044 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 16044
+hostname: PC-201903022055
+
+2019-11-27 12:00:08,086 ERROR 16716 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 16716
+hostname: PC-201903022055
+
+2019-11-27 12:02:47,097 ERROR 16716 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'F:\exerciseCode\js\node\egg-example\app.js'
+    at Object.statSync (fs.js:851:3)
+    at DevelopmentEventSource._onFsWatchChange (F:\exerciseCode\js\node\egg-example\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
+name: "unhandledExceptionError"
+pid: 16716
+hostname: PC-201903022055
+
+2019-11-27 12:10:47,724 ERROR 15608 nodejs.ServerNoResponseError: server 127.0.0.1:56370 no response in 20003ms, maybe the socket is end on the other side. (address: 127.0.0.1:56370)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ServerNoResponseError"
+pid: 15608
+hostname: PC-201903022055
+
+2019-11-27 13:37:06,869 ERROR 20444 nodejs.ClusterClientNoResponseError: client no response in 125744ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (F:\exerciseCode\js\node\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 20444
+hostname: PC-201903022055
+
+2019-11-27 14:28:34,807 ERROR 17540 nodejs.TypeError: Cannot read property 'curl' of undefined
+    at Messenger.agent.messenger.on (F:\exerciseCode\js\node\egg-example\agent.js:7:9)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 17540
+hostname: PC-201903022055
+
+2019-11-27 14:31:32,884 ERROR 20352 nodejs.TypeError: Cannot read property 'curl' of undefined
+    at Messenger.agent.messenger.on (F:\exerciseCode\js\node\egg-example\agent.js:7:9)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 20352
+hostname: PC-201903022055
+
+2019-11-27 14:36:09,674 ERROR 18204 nodejs.TypeError: Cannot read property 'request' of undefined
+    at Messenger.agent.messenger.on (F:\exerciseCode\js\node\egg-example\agent.js:24:19)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 18204
+hostname: PC-201903022055
+
+2019-11-27 14:36:43,520 ERROR 20040 nodejs.TypeError: Cannot set property 'body' of undefined
+    at Messenger.agent.messenger.on (F:\exerciseCode\js\node\egg-example\agent.js:19:16)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 20040
+hostname: PC-201903022055
+
+2019-11-27 14:41:18,925 ERROR 2288 nodejs.ReferenceError: ctx is not defined
+    at Messenger.agent.messenger.on.obj (F:\exerciseCode\js\node\egg-example\agent.js:19:7)
+    at Messenger.emit (events.js:189:13)
+    at Messenger._onMessage (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\messenger\ipc.js:116:12)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+pid: 2288
+hostname: PC-201903022055
+
+2019-11-27 15:19:11,869 ERROR 21256 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:5000, POST http://localhost:5000/weibo/capture -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:5000:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 5000
+name: "RequestError"
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1018,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 21256
+hostname: PC-201903022055
+
+2019-11-27 15:19:52,452 ERROR 20676 nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:5000, POST http://localhost:5000/weibo/capture -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:5000:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 5000
+name: "RequestError"
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1019,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 20676
+hostname: PC-201903022055
+
+2019-11-27 15:45:46,826 ERROR 20972 nodejs.ResponseTimeoutError: Response timeout for 3000ms, POST http://localhost:5000/weibo/capture -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:940:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ResponseTimeoutError"
+requestId: 2
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3004,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":5000,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 20972
+hostname: PC-201903022055
+
+2019-11-27 15:56:50,854 ERROR 20660 nodejs.ResponseTimeoutError: Response timeout for 3000ms, POST http://localhost:5000/weibo/capture -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (F:\exerciseCode\js\node\egg-example\node_modules\urllib\lib\urllib.js:940:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/weibo/capture"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":3042,"keepAliveSocket":false,"requestUrls":["http://localhost:5000/weibo/capture"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":5000,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 20660
+hostname: PC-201903022055
+

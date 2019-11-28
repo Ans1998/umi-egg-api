@@ -381,3 +381,45 @@ hostname: PC-201903022055
 pid: 7348
 hostname: PC-201903022055
 
+2019-11-25 15:33:36,075 WARN 22760 [-/::1/-/38ms POST /api/weibo/capture] [ { message: 'should be an object',
+    code: 'invalid',
+    field: 'scope' },
+  { message: 'should not be empty',
+    code: 'invalid',
+    field: 'userIdPrefix' } ]
+2019-11-25 15:33:36,077 WARN 22760 [-/::1/-/40ms POST /api/weibo/capture] nodejs.ReferenceError: e is not defined
+    at ReptileController.capture (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:38:17)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 22760
+hostname: PC-201903022055
+
+2019-11-25 15:34:08,739 WARN 22760 [-/::1/-/5ms POST /api/weibo/capture] [ { message: 'should be an object',
+    code: 'invalid',
+    field: 'scope' },
+  { message: 'should not be empty',
+    code: 'invalid',
+    field: 'userIdPrefix' } ]
+2019-11-25 15:34:08,740 WARN 22760 [-/::1/-/7ms POST /api/weibo/capture] nodejs.ReferenceError: e is not defined
+    at ReptileController.capture (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:38:17)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 22760
+hostname: PC-201903022055
+
