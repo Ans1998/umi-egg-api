@@ -33,4 +33,9 @@ module.exports = app => {
   router.post('/api/weibo/capture', controller.reptile.index.capture);
   router.post('/api/weibo/query/record', controller.reptile.index.queryRecord);
   router.post('/api/weibo/delete/record', controller.reptile.index.deleteRecord);
+  // csv文件
+  router.post('/api/weibo/csv/list', controller.reptile.index.queryCsvFile);
+  router.post('/api/weibo/csv/look', controller.reptile.index.queryLookCsvFile);
+  router.post('/api/weibo/csv/delete', controller.reptile.index.deleteCsvFile);
+  router.post('/api/weibo/csv/pushStorage', controller.reptile.index.pushStorage);
 };

@@ -1,12 +1,11 @@
 'use strict';
 const Controller = require('egg').Controller;
-
+const pytohnUrl = 'http://localhost:5000';
 class ReptileController extends Controller {
   async pythonCapture(src) {
     const { ctx } = this;
     try {
-      const url = 'http://localhost:5000';
-      const res = await ctx.curl(url + '/weibo/capture', {
+      const res = await ctx.curl(pytohnUrl + '/weibo/capture', {
         dataType: 'json',
         timeout: 3000,
         method: 'POST',
@@ -120,6 +119,137 @@ class ReptileController extends Controller {
         data: e,
         test: ctx.request.body,
       };
+    }
+  }
+  // csv文件
+  async queryCsvFile() {
+    const { ctx } = this;
+    try {
+      const { data } = await ctx.curl(pytohnUrl + '/weibo/file/list', {
+        dataType: 'json',
+        timeout: 3000,
+        method: 'POST',
+        data: {},
+      });
+      // console.log('pythonCapture---data---', data);
+      // console.log(data);
+      ctx.body = data;
+    } catch (err) {
+      // console.log(err);
+      if (err.errors) {
+        ctx.body = {
+          code: 403,
+          status: 'fail',
+          msg: '读取csv文件列表失败',
+          data: err,
+          test: ctx.request.body,
+        };
+      }
+    }
+  }
+  async queryLookCsvFile() {
+    const { ctx } = this;
+    try {
+      let src = ctx.request.body;
+      // 定义创建接口的请求参数规则
+      let createRule = {
+        catalogueName: 'string',
+        fileName: 'string',
+      };
+      // 使用参数校验
+      ctx.validate(createRule, src);
+      const { data } = await ctx.curl(pytohnUrl + '/weibo/look/file', {
+        dataType: 'json',
+        timeout: 3000,
+        method: 'POST',
+        data: {
+          cataloguePath: src.catalogueName,
+          filePath: src.fileName,
+        },
+      });
+      // console.log('pythonCapture---data---', data);
+      // console.log(data);
+      ctx.body = data;
+    } catch (err) {
+      // console.log(err);
+      if (err.errors) {
+        ctx.body = {
+          code: 403,
+          status: 'fail',
+          msg: '读取csv文件列表失败',
+          data: err,
+          test: ctx.request.body,
+        };
+      }
+    }
+  }
+  async deleteCsvFile() {
+    const { ctx } = this;
+    try {
+      let src = ctx.request.body;
+      // 定义创建接口的请求参数规则
+      let createRule = {
+        form: 'array',
+      };
+      // 使用参数校验
+      ctx.validate(createRule, src);
+      const { data } = await ctx.curl(pytohnUrl + '/weibo/delete/file', {
+        dataType: 'json',
+        timeout: 3000,
+        method: 'POST',
+        data: {
+          form: JSON.stringify(src.form),
+        },
+      });
+      // console.log('pythonCapture---data---', data);
+      // console.log(data);
+      ctx.body = data;
+    } catch (err) {
+      // console.log(err);
+      if (err.errors) {
+        ctx.body = {
+          code: 403,
+          status: 'fail',
+          msg: '读取csv文件列表失败',
+          data: err,
+          test: ctx.request.body,
+        };
+      }
+    }
+  }
+  async pushStorage() {
+    const { ctx } = this;
+    try {
+      let src = ctx.request.body;
+      // 定义创建接口的请求参数规则
+      let createRule = {
+        form: 'array',
+      };
+      // 使用参数校验
+      ctx.validate(createRule, src);
+      // console.log(src);
+      const { data } = await ctx.curl(pytohnUrl + '/weibo/file/pushStorage', {
+        dataType: 'json',
+        timeout: 3000,
+        method: 'POST',
+        data: {
+          form: JSON.stringify(src.form),
+        },
+      });
+      // console.log('pythonCapture---data---', data);
+      // console.log(data);
+      ctx.body = data;
+    } catch (err) {
+      // console.log(err);
+      if (err.errors) {
+        ctx.body = {
+          code: 403,
+          status: 'fail',
+          msg: '进库失败',
+          data: err,
+          test: ctx.request.body,
+        };
+      }
     }
   }
 }

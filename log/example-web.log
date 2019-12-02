@@ -423,3 +423,63 @@ hostname: PC-201903022055
 pid: 22760
 hostname: PC-201903022055
 
+2019-11-29 10:19:42,692 WARN 1452 [-/127.0.0.1/-/3ms POST /api/weibo/csv/list] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new ReptileController (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:6:5)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 1452
+hostname: PC-201903022055
+
+2019-11-29 10:20:17,155 WARN 2372 [-/127.0.0.1/-/3ms POST /api/weibo/csv/list] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new ReptileController (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:6:5)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+
+pid: 2372
+hostname: PC-201903022055
+
+2019-11-29 10:28:22,049 WARN 1104 [-/127.0.0.1/-/2ms POST /api/weibo/csv/list] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new ReptileController (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:6:5)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+
+pid: 1104
+hostname: PC-201903022055
+
+2019-11-29 10:36:08,444 WARN 7128 [-/127.0.0.1/-/3ms POST /api/weibo/csv/list] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (F:\exerciseCode\js\node\egg-example\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new ReptileController (F:\exerciseCode\js\node\egg-example\app\controller\reptile\index.js:6:5)
+    at Object.classControllerMiddleware (F:\exerciseCode\js\node\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:45:18)
+    at F:\exerciseCode\js\node\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\exerciseCode\js\node\egg-example\node_modules\koa-compose\index.js:44:32)
+
+pid: 7128
+hostname: PC-201903022055
+
