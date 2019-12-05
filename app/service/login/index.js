@@ -9,17 +9,17 @@ class LoginService extends Service {
   }
   // 进redis
   async redisSetUserToken(key, value) {
-    let state = await this.app.redis.set(key, value);
+    let state = await this.app.redis.get('0').set(key, value);
     return state;
   }
   // 查redis
   async redisGetUserToken(key) {
-    let data = await this.app.redis.get(key);
+    let data = await this.app.redis.get('0').get(key);
     return data;
   }
   // 删redis
   async redisDelUserToken(key) {
-    let data = await this.app.redis.del(key);
+    let data = await this.app.redis.get('0').del(key);
     return data;
   }
 }

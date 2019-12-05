@@ -24,4 +24,14 @@ module.exports = {
     enable: true,
     package: 'egg-cors',
   },
+  // // session
+  // session: {
+  //   enable: true,
+  //   package: 'egg-session',
+  // },
+  // socket
+  io: {
+    enable: true,
+    package: 'egg-socket.io',
+  },
 };

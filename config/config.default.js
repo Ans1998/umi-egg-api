@@ -52,11 +52,25 @@ module.exports = appInfo => {
   };
   // redis配置
   config.redis = {
-    client: {
-      host: '127.0.0.1', // Redis host
-      password: '',
-      port: 6379, // Redis port
-      db: 0, // 设置指定db库
+    // client: {
+    //   host: '127.0.0.1', // Redis host
+    //   password: '',
+    //   port: 6379, // Redis port
+    //   db: 0, // 设置指定db库
+    // },
+    clients: {
+      0: {
+        port: 6379,
+        host: '127.0.0.1',
+        password: '',
+        db: 0,
+      },
+      10: {
+        port: 6379,
+        host: '127.0.0.1',
+        password: '',
+        db: 10,
+      },
     },
   };
   // 跨域配置
@@ -64,6 +78,30 @@ module.exports = appInfo => {
     origin: '*',
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
   };
+  // socket 配置
+  config.io = {
+    init: {},
+    namespace: {
+      '/': {
+        connectionMiddleware: [ 'connection' ],
+        packetMiddleware: [ 'packet' ],
+      },
+    },
+    // 集群模式下
+    // redis: {
+    //   host: '127.0.0.1',
+    //   port: 6379, // Redis port
+    //   db: 10, // 设置指定db库
+    // },
+  };
+  // session
+  // config.session = {
+  //   key: 'SESSION_ID',
+  //   maxAge: 864000, // 过期时间
+  //   httpOnly: true,
+  //   encrypt: true,
+  //   renew: true, // 延长会话有效期
+  // };
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

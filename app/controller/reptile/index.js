@@ -3,19 +3,24 @@ const Controller = require('egg').Controller;
 const pytohnUrl = 'http://localhost:5000';
 class ReptileController extends Controller {
   async pythonCapture(src) {
-    const { ctx } = this;
+    const { ctx, app } = this;
     try {
-      const res = await ctx.curl(pytohnUrl + '/weibo/capture', {
+      let userInfo = { ...ctx.state.userInfo };
+      let token = await app.redis.get('0').get(userInfo.id);
+      const { data } = await ctx.curl(pytohnUrl + '/weibo/capture', {
         dataType: 'json',
         timeout: 3000,
         method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + token
+        },
         data: {
           url: src.url,
           scope: JSON.stringify(src.scope),
           userIdPrefix: src.userIdPrefix,
         },
       });
-      console.log('pythonCapture---res---', res)
+      console.log('pythonCapture---data---', data)
     } catch (err) {
       console.log(err);
     }
@@ -184,7 +189,7 @@ class ReptileController extends Controller {
     }
   }
   async deleteCsvFile() {
-    const { ctx } = this;
+    const { ctx, app } = this;
     try {
       let src = ctx.request.body;
       // 定义创建接口的请求参数规则
@@ -193,10 +198,16 @@ class ReptileController extends Controller {
       };
       // 使用参数校验
       ctx.validate(createRule, src);
+      // console.log(src);
+      let userInfo = { ...ctx.state.userInfo };
+      let token = await app.redis.get('0').get(userInfo.id);
       const { data } = await ctx.curl(pytohnUrl + '/weibo/delete/file', {
         dataType: 'json',
         timeout: 3000,
         method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + token
+        },
         data: {
           form: JSON.stringify(src.form),
         },
@@ -218,7 +229,7 @@ class ReptileController extends Controller {
     }
   }
   async pushStorage() {
-    const { ctx } = this;
+    const { ctx, app } = this;
     try {
       let src = ctx.request.body;
       // 定义创建接口的请求参数规则
@@ -227,11 +238,17 @@ class ReptileController extends Controller {
       };
       // 使用参数校验
       ctx.validate(createRule, src);
-      // console.log(src);
+      // console.log(src.form);
+      // console.log(JSON.stringify(src));
+      let userInfo = { ...ctx.state.userInfo };
+      let token = await app.redis.get('0').get(userInfo.id);
       const { data } = await ctx.curl(pytohnUrl + '/weibo/file/pushStorage', {
         dataType: 'json',
         timeout: 3000,
         method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + token
+        },
         data: {
           form: JSON.stringify(src.form),
         },

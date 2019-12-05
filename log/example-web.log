@@ -483,3 +483,26 @@ hostname: PC-201903022055
 pid: 7128
 hostname: PC-201903022055
 
+2019-12-04 11:53:28,177 WARN 14148 [-/::1/-/39ms POST /api/socket/test] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at TestController.send (F:\exerciseCode\js\node\egg-example\app\controller\test\index.js:9:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14148
+hostname: PC-201903022055
+
+2019-12-04 11:56:50,125 WARN 13644 [-/::1/-/30ms POST /api/socket/test] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at TestController.send (F:\exerciseCode\js\node\egg-example\app\controller\test\index.js:9:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 13644
+hostname: PC-201903022055
+
+2019-12-04 14:32:58,437 WARN 12528 [-/::1/-/5ms POST /api/socket/test] nodejs.TypeError: Cannot read property 'emit' of undefined
+    at TestController.send (F:\exerciseCode\js\node\egg-example\app\controller\test\index.js:10:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 12528
+hostname: PC-201903022055
+
+2019-12-05 08:54:46,452 WARN 8372 [-/::1/-/13ms POST /api/login] undefined
+2019-12-05 09:07:58,778 WARN 13900 [-/::1/-/29ms POST /api/login] undefined

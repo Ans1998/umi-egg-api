@@ -12,7 +12,7 @@ class ReptileAddService extends Service {
       scopeStart: obj.scope.start,
       scopeEnd: obj.scope.end,
     };
-    let result = await this.app.mysql.insert('weibo_record', {
+    let result = await this.app.mysql.insert('weibo_capture_record', {
       ...form,
       // update_time: newTimes,
       create_time: newTimes,
@@ -21,12 +21,12 @@ class ReptileAddService extends Service {
   }
   // 查询
   async query() {
-    let result = await this.app.mysql.select('weibo_record');
+    let result = await this.app.mysql.select('weibo_capture_record');
     return result;
   }
   // 删除
   async delete(obj) {
-    let result = await this.app.mysql.delete('weibo_record', {
+    let result = await this.app.mysql.delete('weibo_capture_record', {
       ...obj,
     });
     return result;

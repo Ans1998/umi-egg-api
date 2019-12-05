@@ -4,7 +4,7 @@
  * @param {Egg.Application} app - egg application
  */
 module.exports = app => {
-  const { router, controller } = app;
+  const { router, controller, io } = app;
   // 登录
   router.post('/api/login', controller.login.index.login);
   router.post('/api/logOut', controller.login.index.logOut);
@@ -38,4 +38,14 @@ module.exports = app => {
   router.post('/api/weibo/csv/look', controller.reptile.index.queryLookCsvFile);
   router.post('/api/weibo/csv/delete', controller.reptile.index.deleteCsvFile);
   router.post('/api/weibo/csv/pushStorage', controller.reptile.index.pushStorage);
+  // 通知
+  router.post('/api/notification/pushStorage', controller.notification.index.pushStorage);
+  router.post('/api/notification/deleteCsv', controller.notification.index.deleteCsv);
+  router.post('/api/notification/capture', controller.notification.index.capture);
+  // socket
+  io.route('/', io.controller.chat.ping);
+  // router.post('/api/socket/test', controller.test.index.send);
+  // io.of('/').route('chat', io.controller.chat.ping);
+  // app.io.route('/api/socket/chat', app.io.controller.chat.ping);
+  // app.io.route('chat', app.io.controller.chat.ping);
 };
