@@ -18,7 +18,7 @@ module.exports = () => {
         const res = verifyToken(authToken); // 解密获取的Token
         await app.redis.get('10').set('socket_id_' + res.userInfo.id, id); // 设置 Socket ID
         let obj = {
-          code: 0,
+          code: '200',
           status: 'success',
           msg: '连接socket成功',
           data: { pid: id },
