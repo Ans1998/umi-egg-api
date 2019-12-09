@@ -10598,3 +10598,24 @@ hostname: PC-201903022055
 2019-12-07 14:56:07,609 INFO 10100 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 14:56:07 GMT+0800 (GMT+08:00)
 2019-12-07 14:56:07,610 INFO 10100 [egg-watcher:application] watcher start success
 2019-12-07 14:56:07,644 INFO 10100 [egg:core] dump config after ready, 11ms
+2019-12-09 13:57:56,909 INFO 8988 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-09 13:57:56,947 INFO 8988 [egg-multipart] stream mode enable
+2019-12-09 13:57:56,947 INFO 8988 [egg-mysql] connecting root@127.0.0.1:3306/react_template
+2019-12-09 13:57:57,136 INFO 8988 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-12-09 13:57:57,138 INFO 8988 [egg-redis] server connecting redis://:***@127.0.0.1:6379/10
+2019-12-09 13:57:57,357 INFO 8988 [egg-static] starting static serve /public/ -> F:\exerciseCode\js\node\egg-example\app\public
+2019-12-09 13:57:57,361 INFO 8988 [egg-security] use methodnoallow middleware
+2019-12-09 13:57:57,362 INFO 8988 [egg-security] use noopen middleware
+2019-12-09 13:57:57,364 INFO 8988 [egg-security] use nosniff middleware
+2019-12-09 13:57:57,365 INFO 8988 [egg-security] use xssProtection middleware
+2019-12-09 13:57:57,366 INFO 8988 [egg-security] use xframe middleware
+2019-12-09 13:57:57,367 INFO 8988 [egg-security] use dta middleware
+2019-12-09 13:57:57,367 INFO 8988 [egg-security] compose 6 middlewares into one security middleware
+2019-12-09 13:57:57,429 INFO 8988 [egg:core] dump config after load, 8ms
+2019-12-09 13:57:57,456 INFO 8988 [egg-redis] client connect success
+2019-12-09 13:57:57,457 INFO 8988 [egg-redis] client connect success
+2019-12-09 13:57:57,465 INFO 8988 [egg-redis] instance[0] status OK, client ready
+2019-12-09 13:57:57,466 INFO 8988 [egg-redis] instance[1] status OK, client ready
+2019-12-09 13:57:57,477 INFO 8988 [egg-mysql] instance[0] status OK, rds currentTime: Mon Dec 09 2019 13:57:57 GMT+0800 (GMT+08:00)
+2019-12-09 13:57:57,480 INFO 8988 [egg-watcher:application] watcher start success
+2019-12-09 13:57:57,544 INFO 8988 [egg:core] dump config after ready, 25ms
