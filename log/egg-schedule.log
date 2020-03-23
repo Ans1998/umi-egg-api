@@ -2776,3 +2776,30 @@
 2019-12-09 13:57:57,558 INFO 10916 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52322446ms at 2019-12-10 04:30:00.003
 2019-12-09 13:57:57,558 INFO 10916 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 36122442ms at 2019-12-10 00:00:00.000
 2019-12-09 13:57:57,559 INFO 10916 [Timer] F:\exerciseCode\js\node\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 36123442ms at 2019-12-10 00:00:01.001
+2020-01-15 16:56:50,495 INFO 5232 [Timer] F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41589506ms at 2020-01-16 04:30:00.001
+2020-01-15 16:56:50,496 INFO 5232 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25389504ms at 2020-01-16 00:00:00.000
+2020-01-15 16:56:50,496 INFO 5232 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25390504ms at 2020-01-16 00:00:01.000
+2020-01-15 16:56:50,229 INFO 18996 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-15 16:56:50,229 INFO 18996 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-15 16:56:50,229 INFO 18996 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-01-15 17:30:28,036 INFO 10792 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-15 17:30:28,036 INFO 10792 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-15 17:30:28,036 INFO 10792 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-01-15 17:34:26,014 INFO 3652 [Timer] F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 39333988ms at 2020-01-16 04:30:00.002
+2020-01-15 17:34:26,015 INFO 3652 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23133986ms at 2020-01-16 00:00:00.001
+2020-01-15 17:34:26,015 INFO 3652 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23134985ms at 2020-01-16 00:00:01.000
+2020-01-15 17:34:25,695 INFO 12320 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-15 17:34:25,695 INFO 12320 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-15 17:34:25,695 INFO 12320 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-01-21 10:45:40,302 INFO 10316 [Timer] F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63859700ms at 2020-01-22 04:30:00.002
+2020-01-21 10:45:40,302 INFO 10316 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47659698ms at 2020-01-22 00:00:00.000
+2020-01-21 10:45:40,302 INFO 10316 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47660698ms at 2020-01-22 00:00:01.000
+2020-01-21 10:45:39,969 INFO 15932 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-21 10:45:39,969 INFO 15932 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-21 10:45:39,969 INFO 15932 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-01-21 13:11:56,609 INFO 5384 [Timer] F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55083393ms at 2020-01-22 04:30:00.002
+2020-01-21 13:11:56,610 INFO 5384 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 38883391ms at 2020-01-22 00:00:00.001
+2020-01-21 13:11:56,610 INFO 5384 [Timer] F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 38884390ms at 2020-01-22 00:00:01.000
+2020-01-21 13:11:56,219 INFO 19916 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-01-21 13:11:56,219 INFO 19916 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-01-21 13:11:56,219 INFO 19916 [egg-schedule]: register schedule F:\my\github\umi-egg-api\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

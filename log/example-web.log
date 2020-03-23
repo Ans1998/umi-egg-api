@@ -596,3 +596,153 @@ hostname: PC-201903022055
 pid: 8988
 hostname: PC-201903022055
 
+2020-01-21 11:14:20,136 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:15:05,167 WARN 15932 [-/192.168.0.4/-/10ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:16:07,472 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:16:18,121 WARN 15932 [-/192.168.0.4/-/2ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:29:17,139 WARN 15932 [-/192.168.0.4/-/17ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:30:17,137 WARN 15932 [-/192.168.0.4/-/9ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:32:46,088 WARN 15932 [-/192.168.0.4/-/9ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:33:19,262 WARN 15932 [-/192.168.0.4/-/9ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:34:07,843 WARN 15932 [-/192.168.0.4/-/10ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:36:17,385 WARN 15932 [-/192.168.0.4/-/10ms POST /api/login] [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+2020-01-21 11:36:29,009 WARN 15932 [-/192.168.0.4/-/37ms POST /api/login] undefined
+2020-01-21 11:43:54,588 WARN 15932 [-/192.168.0.4/-/13ms POST /api/login] undefined
+2020-01-21 11:50:27,982 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:51:57,831 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:52:01,732 WARN 15932 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:52:02,742 WARN 15932 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:52:03,959 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:52:22,557 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:54:01,916 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:54:37,035 WARN 15932 [-/192.168.0.4/-/11ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 11:55:36,202 WARN 15932 [-/192.168.0.4/-/9ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:00:56,642 WARN 15932 [-/192.168.0.4/-/10ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:00:59,678 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:01:00,878 WARN 15932 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:02:21,690 WARN 15932 [-/192.168.0.4/-/3ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:02:46,306 WARN 15932 [-/192.168.0.4/-/10ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:02:53,881 WARN 15932 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:02:56,515 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:02:58,294 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:06:15,629 WARN 15932 [-/192.168.0.4/-/14ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:06:39,595 WARN 15932 [-/192.168.0.4/-/3ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:06:55,715 WARN 15932 [-/192.168.0.4/-/3ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:06:59,295 WARN 15932 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:14:20,962 WARN 15932 [-/192.168.0.4/-/1ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 12:14:26,639 WARN 15932 [-/192.168.0.4/-/2ms POST /api/login] undefined
+2020-01-21 12:15:52,282 WARN 15932 [-/192.168.0.4/-/5ms POST /api/login] undefined
+2020-01-21 12:50:44,681 WARN 15932 [-/192.168.0.4/-/15ms POST /api/login] undefined
+2020-01-21 13:26:34,191 WARN 19916 [-/192.168.0.4/-/2ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 13:27:38,560 WARN 19916 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 13:27:59,903 WARN 19916 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 13:29:22,033 WARN 19916 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]
+2020-01-21 13:29:26,934 WARN 19916 [-/192.168.0.4/-/0ms POST /api/login] [
+  { message: 'required', field: 'userName', code: 'missing_field' },
+  { message: 'required', field: 'password', code: 'missing_field' }
+]

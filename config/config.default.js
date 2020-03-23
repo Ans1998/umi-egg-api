@@ -35,13 +35,13 @@ module.exports = appInfo => {
     // 单数据库信息配置
     client: {
       // host
-      host: '127.0.0.1',
+      host: '192.168.99.100',
       // 端口号
       port: '3306',
       // 用户名
       user: 'root',
       // 密码
-      password: '',
+      password: 'password',
       // 数据库名
       database: 'react_template',
     },
@@ -61,13 +61,13 @@ module.exports = appInfo => {
     clients: {
       0: {
         port: 6379,
-        host: '127.0.0.1',
+        host: '192.168.99.100',
         password: '',
         db: 0,
       },
       10: {
         port: 6379,
-        host: '127.0.0.1',
+        host: '192.168.99.100',
         password: '',
         db: 10,
       },

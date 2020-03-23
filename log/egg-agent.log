@@ -5211,3 +5211,56 @@ hostname: PC-201903022055
 2019-12-09 13:57:55,167 INFO 10916 [egg-watcher] Start watching: "F:\\exerciseCode\\js\\node\\egg-example\\app.js"
 2019-12-09 13:57:55,168 INFO 10916 [egg-watcher:agent] watcher start success
 2019-12-09 13:57:55,194 INFO 10916 [egg:core] dump config after ready, 14ms
+2020-01-15 16:56:49,100 INFO 5232 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-15 16:56:49,107 INFO 5232 [egg:core] dump config after load, 4ms
+2020-01-15 16:56:49,147 INFO 5232 [egg-watcher] Start watching: ["F:\\my\\github\\umi-egg-api\\app","F:\\my\\github\\umi-egg-api\\config","F:\\my\\github\\umi-egg-api\\mocks","F:\\my\\github\\umi-egg-api\\mocks_proxy","F:\\my\\github\\umi-egg-api\\app.js"]
+2020-01-15 16:56:49,147 INFO 5232 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app"
+2020-01-15 16:56:49,148 INFO 5232 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\config"
+2020-01-15 16:56:49,148 INFO 5232 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks"
+2020-01-15 16:56:49,148 INFO 5232 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks_proxy"
+2020-01-15 16:56:49,148 INFO 5232 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app.js"
+2020-01-15 16:56:49,149 INFO 5232 [egg-watcher:agent] watcher start success
+2020-01-15 16:56:49,157 INFO 5232 [egg:core] dump config after ready, 5ms
+2020-01-15 17:30:26,714 INFO 3356 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-15 17:30:26,723 INFO 3356 [egg:core] dump config after load, 4ms
+2020-01-15 17:30:26,775 INFO 3356 [egg-watcher] Start watching: ["F:\\my\\github\\umi-egg-api\\app","F:\\my\\github\\umi-egg-api\\config","F:\\my\\github\\umi-egg-api\\mocks","F:\\my\\github\\umi-egg-api\\mocks_proxy","F:\\my\\github\\umi-egg-api\\app.js"]
+2020-01-15 17:30:26,775 INFO 3356 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app"
+2020-01-15 17:30:26,776 INFO 3356 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\config"
+2020-01-15 17:30:26,776 INFO 3356 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks"
+2020-01-15 17:30:26,776 INFO 3356 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks_proxy"
+2020-01-15 17:30:26,776 INFO 3356 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app.js"
+2020-01-15 17:30:26,777 INFO 3356 [egg-watcher:agent] watcher start success
+2020-01-15 17:30:26,788 INFO 3356 [egg:core] dump config after ready, 6ms
+2020-01-15 17:34:24,372 INFO 3652 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-15 17:34:24,381 INFO 3652 [egg:core] dump config after load, 5ms
+2020-01-15 17:34:24,430 INFO 3652 [egg-watcher] Start watching: ["F:\\my\\github\\umi-egg-api\\app","F:\\my\\github\\umi-egg-api\\config","F:\\my\\github\\umi-egg-api\\mocks","F:\\my\\github\\umi-egg-api\\mocks_proxy","F:\\my\\github\\umi-egg-api\\app.js"]
+2020-01-15 17:34:24,430 INFO 3652 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app"
+2020-01-15 17:34:24,430 INFO 3652 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\config"
+2020-01-15 17:34:24,431 INFO 3652 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks"
+2020-01-15 17:34:24,431 INFO 3652 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks_proxy"
+2020-01-15 17:34:24,431 INFO 3652 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app.js"
+2020-01-15 17:34:24,432 INFO 3652 [egg-watcher:agent] watcher start success
+2020-01-15 17:34:24,445 INFO 3652 [egg:core] dump config after ready, 7ms
+2020-01-21 10:45:38,646 INFO 10316 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-21 10:45:38,653 INFO 10316 [egg:core] dump config after load, 4ms
+2020-01-21 10:45:38,704 INFO 10316 [egg-watcher] Start watching: ["F:\\my\\github\\umi-egg-api\\app","F:\\my\\github\\umi-egg-api\\config","F:\\my\\github\\umi-egg-api\\mocks","F:\\my\\github\\umi-egg-api\\mocks_proxy","F:\\my\\github\\umi-egg-api\\app.js"]
+2020-01-21 10:45:38,705 INFO 10316 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app"
+2020-01-21 10:45:38,705 INFO 10316 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\config"
+2020-01-21 10:45:38,705 INFO 10316 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks"
+2020-01-21 10:45:38,705 INFO 10316 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks_proxy"
+2020-01-21 10:45:38,705 INFO 10316 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app.js"
+2020-01-21 10:45:38,706 INFO 10316 [egg-watcher:agent] watcher start success
+2020-01-21 10:45:38,717 INFO 10316 [egg:core] dump config after ready, 5ms
+2020-01-21 13:11:42,998 WARN 10316 [agent:development] reload worker because F:\my\github\umi-egg-api\config\config.default.js change
+2020-01-21 13:11:42,786 INFO 10316 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"F:\\my\\github\\umi-egg-api\\config\\config.default.js","stat":{"dev":1679508523,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953480099,"size":2594,"blocks":8,"atimeMs":1579583502775.419,"mtimeMs":1579583502775.419,"ctimeMs":1579583502775.419,"birthtimeMs":1579074846079.5066,"atime":"2020-01-21T05:11:42.775Z","mtime":"2020-01-21T05:11:42.775Z","ctime":"2020-01-21T05:11:42.775Z","birthtime":"2020-01-15T07:54:06.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-01-21 13:11:42,795 INFO 10316 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"F:\\my\\github\\umi-egg-api\\config\\config.default.js","stat":{"dev":1679508523,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953480099,"size":2594,"blocks":8,"atimeMs":1579583502775.419,"mtimeMs":1579583502775.419,"ctimeMs":1579583502775.419,"birthtimeMs":1579074846079.5066,"atime":"2020-01-21T05:11:42.775Z","mtime":"2020-01-21T05:11:42.775Z","ctime":"2020-01-21T05:11:42.775Z","birthtime":"2020-01-15T07:54:06.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-01-21 13:11:54,841 INFO 5384 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-21 13:11:54,849 INFO 5384 [egg:core] dump config after load, 4ms
+2020-01-21 13:11:54,910 INFO 5384 [egg-watcher] Start watching: ["F:\\my\\github\\umi-egg-api\\app","F:\\my\\github\\umi-egg-api\\config","F:\\my\\github\\umi-egg-api\\mocks","F:\\my\\github\\umi-egg-api\\mocks_proxy","F:\\my\\github\\umi-egg-api\\app.js"]
+2020-01-21 13:11:54,910 INFO 5384 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app"
+2020-01-21 13:11:54,910 INFO 5384 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\config"
+2020-01-21 13:11:54,911 INFO 5384 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks"
+2020-01-21 13:11:54,911 INFO 5384 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\mocks_proxy"
+2020-01-21 13:11:54,911 INFO 5384 [egg-watcher] Start watching: "F:\\my\\github\\umi-egg-api\\app.js"
+2020-01-21 13:11:54,912 INFO 5384 [egg-watcher:agent] watcher start success
+2020-01-21 13:11:54,928 INFO 5384 [egg:core] dump config after ready, 9ms

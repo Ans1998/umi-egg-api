@@ -10619,3 +10619,106 @@ hostname: PC-201903022055
 2019-12-09 13:57:57,477 INFO 8988 [egg-mysql] instance[0] status OK, rds currentTime: Mon Dec 09 2019 13:57:57 GMT+0800 (GMT+08:00)
 2019-12-09 13:57:57,480 INFO 8988 [egg-watcher:application] watcher start success
 2019-12-09 13:57:57,544 INFO 8988 [egg:core] dump config after ready, 25ms
+2020-01-15 16:56:50,204 INFO 18996 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-15 16:56:50,230 INFO 18996 [egg-multipart] stream mode enable
+2020-01-15 16:56:50,230 INFO 18996 [egg-mysql] connecting root@192.168.99.100:3306/react_template
+2020-01-15 16:56:50,317 INFO 18996 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-01-15 16:56:50,318 INFO 18996 [egg-redis] server connecting redis://:***@127.0.0.1:6379/10
+2020-01-15 16:56:50,406 INFO 18996 [egg-static] starting static serve /public/ -> F:\my\github\umi-egg-api\app\public
+2020-01-15 16:56:50,409 INFO 18996 [egg-security] use methodnoallow middleware
+2020-01-15 16:56:50,409 INFO 18996 [egg-security] use noopen middleware
+2020-01-15 16:56:50,410 INFO 18996 [egg-security] use nosniff middleware
+2020-01-15 16:56:50,410 INFO 18996 [egg-security] use xssProtection middleware
+2020-01-15 16:56:50,411 INFO 18996 [egg-security] use xframe middleware
+2020-01-15 16:56:50,411 INFO 18996 [egg-security] use dta middleware
+2020-01-15 16:56:50,411 INFO 18996 [egg-security] compose 6 middlewares into one security middleware
+2020-01-15 16:56:50,442 INFO 18996 [egg:core] dump config after load, 11ms
+2020-01-15 16:56:50,454 INFO 18996 [egg-redis] client connect success
+2020-01-15 16:56:50,454 INFO 18996 [egg-redis] client connect success
+2020-01-15 16:56:50,461 INFO 18996 [egg-redis] instance[0] status OK, client ready
+2020-01-15 16:56:50,461 INFO 18996 [egg-redis] instance[1] status OK, client ready
+2020-01-15 16:56:50,462 INFO 18996 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 15 2020 08:44:45 GMT+0800 (GMT+08:00)
+2020-01-15 16:56:50,464 INFO 18996 [egg-watcher:application] watcher start success
+2020-01-15 16:56:50,487 INFO 18996 [egg:core] dump config after ready, 11ms
+2020-01-15 17:30:28,009 INFO 10792 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-15 17:30:28,037 INFO 10792 [egg-multipart] stream mode enable
+2020-01-15 17:30:28,037 INFO 10792 [egg-mysql] connecting root@192.168.99.100:3306/react_template
+2020-01-15 17:30:28,173 INFO 10792 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-01-15 17:30:28,174 INFO 10792 [egg-redis] server connecting redis://:***@127.0.0.1:6379/10
+2020-01-15 17:30:28,289 INFO 10792 [egg-static] starting static serve /public/ -> F:\my\github\umi-egg-api\app\public
+2020-01-15 17:30:28,292 INFO 10792 [egg-security] use methodnoallow middleware
+2020-01-15 17:30:28,292 INFO 10792 [egg-security] use noopen middleware
+2020-01-15 17:30:28,293 INFO 10792 [egg-security] use nosniff middleware
+2020-01-15 17:30:28,294 INFO 10792 [egg-security] use xssProtection middleware
+2020-01-15 17:30:28,294 INFO 10792 [egg-security] use xframe middleware
+2020-01-15 17:30:28,295 INFO 10792 [egg-security] use dta middleware
+2020-01-15 17:30:28,295 INFO 10792 [egg-security] compose 6 middlewares into one security middleware
+2020-01-15 17:30:28,324 INFO 10792 [egg:core] dump config after load, 7ms
+2020-01-15 17:30:28,336 INFO 10792 [egg-redis] client connect success
+2020-01-15 17:30:28,336 INFO 10792 [egg-redis] client connect success
+2020-01-15 17:30:28,338 INFO 10792 [egg-redis] instance[0] status OK, client ready
+2020-01-15 17:30:28,339 INFO 10792 [egg-redis] instance[1] status OK, client ready
+2020-01-15 17:30:28,344 INFO 10792 [egg-watcher:application] watcher start success
+2020-01-15 17:34:25,669 INFO 12320 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-15 17:34:25,695 INFO 12320 [egg-multipart] stream mode enable
+2020-01-15 17:34:25,696 INFO 12320 [egg-mysql] connecting root@192.168.99.100:3306/react_template
+2020-01-15 17:34:25,798 INFO 12320 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-01-15 17:34:25,800 INFO 12320 [egg-redis] server connecting redis://:***@127.0.0.1:6379/10
+2020-01-15 17:34:25,916 INFO 12320 [egg-static] starting static serve /public/ -> F:\my\github\umi-egg-api\app\public
+2020-01-15 17:34:25,919 INFO 12320 [egg-security] use methodnoallow middleware
+2020-01-15 17:34:25,920 INFO 12320 [egg-security] use noopen middleware
+2020-01-15 17:34:25,921 INFO 12320 [egg-security] use nosniff middleware
+2020-01-15 17:34:25,922 INFO 12320 [egg-security] use xssProtection middleware
+2020-01-15 17:34:25,922 INFO 12320 [egg-security] use xframe middleware
+2020-01-15 17:34:25,923 INFO 12320 [egg-security] use dta middleware
+2020-01-15 17:34:25,923 INFO 12320 [egg-security] compose 6 middlewares into one security middleware
+2020-01-15 17:34:25,949 INFO 12320 [egg:core] dump config after load, 4ms
+2020-01-15 17:34:25,963 INFO 12320 [egg-redis] client connect success
+2020-01-15 17:34:25,964 INFO 12320 [egg-redis] client connect success
+2020-01-15 17:34:25,967 INFO 12320 [egg-redis] instance[0] status OK, client ready
+2020-01-15 17:34:25,968 INFO 12320 [egg-redis] instance[1] status OK, client ready
+2020-01-15 17:34:25,973 INFO 12320 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 15 2020 09:34:25 GMT+0800 (GMT+08:00)
+2020-01-15 17:34:25,974 INFO 12320 [egg-watcher:application] watcher start success
+2020-01-15 17:34:26,007 INFO 12320 [egg:core] dump config after ready, 11ms
+2020-01-21 10:45:39,943 INFO 15932 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-21 10:45:39,970 INFO 15932 [egg-multipart] stream mode enable
+2020-01-21 10:45:39,970 INFO 15932 [egg-mysql] connecting root@192.168.99.100:3306/react_template
+2020-01-21 10:45:40,087 INFO 15932 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-01-21 10:45:40,088 INFO 15932 [egg-redis] server connecting redis://:***@127.0.0.1:6379/10
+2020-01-21 10:45:40,210 INFO 15932 [egg-static] starting static serve /public/ -> F:\my\github\umi-egg-api\app\public
+2020-01-21 10:45:40,214 INFO 15932 [egg-security] use methodnoallow middleware
+2020-01-21 10:45:40,215 INFO 15932 [egg-security] use noopen middleware
+2020-01-21 10:45:40,215 INFO 15932 [egg-security] use nosniff middleware
+2020-01-21 10:45:40,216 INFO 15932 [egg-security] use xssProtection middleware
+2020-01-21 10:45:40,216 INFO 15932 [egg-security] use xframe middleware
+2020-01-21 10:45:40,217 INFO 15932 [egg-security] use dta middleware
+2020-01-21 10:45:40,217 INFO 15932 [egg-security] compose 6 middlewares into one security middleware
+2020-01-21 10:45:40,242 INFO 15932 [egg:core] dump config after load, 5ms
+2020-01-21 10:45:40,255 INFO 15932 [egg-redis] client connect success
+2020-01-21 10:45:40,255 INFO 15932 [egg-redis] client connect success
+2020-01-21 10:45:40,263 INFO 15932 [egg-redis] instance[0] status OK, client ready
+2020-01-21 10:45:40,263 INFO 15932 [egg-redis] instance[1] status OK, client ready
+2020-01-21 10:45:40,265 INFO 15932 [egg-watcher:application] watcher start success
+2020-01-21 10:45:40,267 INFO 15932 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 21 2020 02:45:39 GMT+0800 (GMT+08:00)
+2020-01-21 10:45:40,292 INFO 15932 [egg:core] dump config after ready, 9ms
+2020-01-21 13:11:56,186 INFO 19916 [egg:logger] init all loggers with options: {"dir":"./log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-21 13:11:56,220 INFO 19916 [egg-multipart] stream mode enable
+2020-01-21 13:11:56,220 INFO 19916 [egg-mysql] connecting root@192.168.99.100:3306/react_template
+2020-01-21 13:11:56,349 INFO 19916 [egg-redis] server connecting redis://:***@192.168.99.100:6379/0
+2020-01-21 13:11:56,351 INFO 19916 [egg-redis] server connecting redis://:***@192.168.99.100:6379/10
+2020-01-21 13:11:56,491 INFO 19916 [egg-static] starting static serve /public/ -> F:\my\github\umi-egg-api\app\public
+2020-01-21 13:11:56,494 INFO 19916 [egg-security] use methodnoallow middleware
+2020-01-21 13:11:56,495 INFO 19916 [egg-security] use noopen middleware
+2020-01-21 13:11:56,496 INFO 19916 [egg-security] use nosniff middleware
+2020-01-21 13:11:56,497 INFO 19916 [egg-security] use xssProtection middleware
+2020-01-21 13:11:56,498 INFO 19916 [egg-security] use xframe middleware
+2020-01-21 13:11:56,499 INFO 19916 [egg-security] use dta middleware
+2020-01-21 13:11:56,499 INFO 19916 [egg-security] compose 6 middlewares into one security middleware
+2020-01-21 13:11:56,541 INFO 19916 [egg:core] dump config after load, 10ms
+2020-01-21 13:11:56,556 INFO 19916 [egg-redis] client connect success
+2020-01-21 13:11:56,557 INFO 19916 [egg-redis] client connect success
+2020-01-21 13:11:56,562 INFO 19916 [egg-redis] instance[0] status OK, client ready
+2020-01-21 13:11:56,563 INFO 19916 [egg-redis] instance[1] status OK, client ready
+2020-01-21 13:11:56,566 INFO 19916 [egg-watcher:application] watcher start success
+2020-01-21 13:11:56,572 INFO 19916 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 21 2020 05:11:55 GMT+0800 (GMT+08:00)
+2020-01-21 13:11:56,602 INFO 19916 [egg:core] dump config after ready, 8ms
